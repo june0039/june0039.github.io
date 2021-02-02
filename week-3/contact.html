@@ -35,10 +35,16 @@ value="Mrs.">
 </div>
 <div>
 <label for="tickets">How many tickets? (sold in pairs</label>    
-<input type="number" name="tickets" id="tickets" min="2" max="10">
+<input type="number" name="tickets" id="tickets" min="2" max="10" step="2">
 </div>
-
-
+<div>
+<label for="row">Select Row"</label>
+<select name="row" id="row">
+<option value="front">Front Row</option> 
+<option value="center"selected>Center Row</option> 
+<option value="back">Back Row</option> 
+</select>
+</div>
 <button type="submit">Sign me up!</button>
 </form>
 </section>
