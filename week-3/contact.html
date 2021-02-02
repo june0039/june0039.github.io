@@ -19,8 +19,27 @@
 <section>
 <h3>We love to hear from you!</h3>
 <form action="thanks.html" method="get">
+ <div>
 <label for="fullname">Your Name</label>
-<input type="text" id="fullname" name="fullname" placeholder= "metoo">
+<input type="text" id="fullname" name="fullname" placeholder= "metoo"
+value="Mrs.">
+</div>   
+<div></div>
+<label for="youremail">Email</label>
+<input type="email" id="youremail" name="youremail" required>
+</div>
+<!--required is a boolean attribute, it only needs to be set by its name -->
+<div>
+<label for="message">Message</label>
+<textarea name="message" id="message" ></textarea>
+</div>
+<div>
+<label for="tickets">How many tickets? (sold in pairs</label>    
+<input type="number" name="tickets" id="tickets" min="2" max="10">
+</div>
+
+
+<button type="submit">Sign me up!</button>
 </form>
 </section>
 </main>
