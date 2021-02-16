@@ -1,0 +1,47 @@
+body{
+    color:darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/images/white-brick-wall.png");
+  /*  background-repeat: no repeat;
+    background-position: 100px 200px;
+    background-size: contain;*/
+}
+
+
+
+body{
+    color:red;
+}
+
+.orange-link{
+    background-color: darkslategray;
+    color:orange;
+    text-decoration: none;
+}
+
+#treatoftheweek{
+    /*background-color: orange;*/
+    background: darkslategray url("../images/bread.jpeg") no-repeat center center;
+}
+
+.large-text{
+    font-size: 20px;
+}
+/*child selector or Direct Child selector*/
+article>p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*Adjacent sibbling sector*/
+h3+ul{
+    /*THICKNESS and style*/
+    border: 1px solid black;
+}
+a[href="treatofweek"]{
+    font-weight: bold;
+
+}
