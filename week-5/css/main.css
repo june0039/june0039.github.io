@@ -1,4 +1,7 @@
 
+dl ul li:nth-child(2nd + 1){
+    background-color: white;
+}
 /*specificity:0002*/
 body-footer{
     background-color: rgb(0,0,0) ;
