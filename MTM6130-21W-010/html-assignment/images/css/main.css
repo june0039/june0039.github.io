@@ -9,15 +9,11 @@ header{
 footer{
     background-color:rosybrown;
 
-    .site{
+    .title{
         color:red;
         
     }
     my-image{
-        box-shadow: black;
-        height:0;
-        width: 0;
-        blur: 2px;
-        spread: 1px;
+        box-shadow: 0 0 2px 1px black;
 
     }

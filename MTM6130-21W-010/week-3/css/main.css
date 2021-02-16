@@ -1,0 +1,18 @@
+
+/*specificity:0002*/
+body-footer{
+    background-color: rgb(0,0,0) ;
+}
+
+/*specificity:0001*/
+footer{
+    background-color:#d5836C ;
+    padding: 20px;
+}
+/*specificity:0010*/
+.site-footer{
+    background-color: cornflowerblue;
+}
+footer.site-footer{
+    background-color: rgba(0,0,0,0.2);
+}
