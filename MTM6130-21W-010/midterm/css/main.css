@@ -1,14 +1,14 @@
+
+/*Color of the body of index page*/
 body{
    color:#BCECE0;
   
 }
+/*Color of background for all paragraphs*/
  p{
    background-color: #D0F4EA;
  }
   
- p{ 
-    background-color: #D0F4EA;
-    border:2px solid black;}
  
 /* Container holding the image and the text */
 .container {
@@ -65,3 +65,4 @@ body {font-family: Arial, Helvetica, sans-serif;
     text-align: left;
   }
 
+}
