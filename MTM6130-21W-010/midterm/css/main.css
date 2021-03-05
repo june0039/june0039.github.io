@@ -7,10 +7,10 @@
  }
   
  
-/* Container holding the header image and the text */
+/* Container holding the header image and the header text */
 .container {
     position: relative;
-    text-align: left;
+    text-align: center;
     color:black;
     background-color: #D0F4EA;
   }
@@ -26,13 +26,14 @@
   }
 
   img{
-    width: 100%;
+    width: 50%;
     height: auto;
    }
    
    .container2 {
-     width:200px;
-     height:200px;
+     width:400px;
+     height:400px;
+     padding:10px;
     text-align: left;
     color:black;
     background-color: #D0F4EA;
@@ -51,11 +52,13 @@
      font-family: Arial, Helvetica, sans-serif;
      color: black;
      background-color: #BCECE0;
+     outline: #BCECE0 solid 20px;
 }
 
 .navbar {
-  width: 100%;
+  width: 50%;
   height:25%;
+  position: relative;
   background-color: #D0F4EA;
   overflow: auto;
 }
@@ -67,7 +70,7 @@
   text-decoration: none;
   font-size: 18px;
   width: 30%; /* Three links of equal widths */
-  text-align: center;
+  text-align: right;
 }
 
 .navbar a:hover {
@@ -80,7 +83,7 @@ p.solid {
 
 @media screen and (max-width: 500px) {
   .navbar a {
-    float: none;
+    float: center;
     display: block;
     width: 100%;
     text-align: left;
@@ -88,5 +91,11 @@ p.solid {
   .form {
     background-color: #D0F4EA;
     border:2px solid black;
+  }
+  input[type=text] {
+    width:1000px;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
   }
 }
