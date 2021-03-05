@@ -1,55 +1,72 @@
 
-/*Color of the body of index page*/
-body{
-   color:#BCECE0;
-  
-}
+
+
 /*Color of background for all paragraphs*/
  p{
    background-color: #D0F4EA;
  }
   
  
-/* Container holding the image and the text */
+/* Container holding the header image and the text */
 .container {
     position: relative;
     text-align: left;
     color:black;
+    background-color: #D0F4EA;
   }
 
 
-  /* Centered text */
-.centered {
+  /* header Centered text */
+.header {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 100px;
+    left: 600px;
+    font-size: 60px;
+    color:white;
   }
-  p.solid{border-style:solid;}
 
-    img {
-  float: left;}
-* {box-sizing: border-box}
+  img{
+    width: 100%;
+    height: auto;
+   }
    
-   body {font-family: Arial, Helvetica, sans-serif;
-     color: black;
+   .container2 {
+     width:200px;
+     height:200px;
+    text-align: left;
+    color:black;
+    background-color: #D0F4EA;
+  }
 
-    background-color: #A9DDD6;
+  h2,
+  h3{
+    background-color: #D0F4EA;
+  }
+  
+  
+  
+  /*Color of the body of index page, font style and color*/
+   body {
+     
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+     background-color: #BCECE0;
 }
 
 .navbar {
   width: 100%;
+  height:25%;
   background-color: #D0F4EA;
   overflow: auto;
 }
 
 .navbar a {
   float: left;
-  padding: 12px;
+  padding: 8px;
   color: black;
   text-decoration: none;
   font-size: 18px;
-  width: 33%; /* Three links of equal widths */
+  width: 30%; /* Three links of equal widths */
   text-align: center;
 }
 
@@ -57,7 +74,9 @@ body{
   background-color: #000;
 }
 
-
+p.solid {
+  border-style: solid;
+}
 
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -66,5 +85,8 @@ body{
     width: 100%;
     text-align: left;
   }
-
+  .form {
+    background-color: #D0F4EA;
+    border:2px solid black;
+  }
 }
