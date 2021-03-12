@@ -44,12 +44,44 @@ nav ul a {
 body{
     color:red;
 }
+img {
+    width: 100%;
+}
+
+
+/*float*/
+article,
+aside{
+width:88%;
+background-color:  rgba(255, 255, 255, 0.6);
+border: 1px solid black;
+padding: 1.5em;
+box-sizing: border-box;
+float: left;
+}
+
+aside{
+    width:20%;
+
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section{
+    clear: both;
+}
 
 .orange-link{
     background-color: darkslategray;
     color:orange;
     text-decoration: none;
 }
+
+
 
 #treatoftheweek{
     /*background-color: orange;*/
