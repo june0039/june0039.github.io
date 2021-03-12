@@ -1,72 +1,39 @@
-!DOCTYPE html>
-<html>
- <head>
-    <div 
-    
-    class="container">
-        <img src="images/lone-starfish-wide.jpg" alt="lone-starfish-wide header" style="width:100%;">
-        <div class="centered">Lone Star</div>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    img {
-  float: left;}
-* {box-sizing: border-box}
-body {font-family: Arial, Helvetica, sans-serif;
-
-    background-color: #BCECE0;
-
-
-}
-
-.navbar {
-  width: 100%;
-  background-color: #BCECE0;
-  overflow: auto;
-}
-
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-  width: 33%; /* Three links of equal widths */
-  text-align: center;
-}
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-.navbar a.active {
-  background-color: #BCECE0;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-</style>
-<body>
-
-
-<div class="navbar">
-  <a class="active" href="index.html">HOME</a> 
-  <a href="story.html">STORY</a>
-  <a href="contact.html">CONTACT</a>
+<!DOCTYPE html>
+<html lang="en">
   
-</div>
-</head>
+    <head>
+   <meta charset="UTF-8">
+   <title> StarFish</title>
+   <!--Links to Css Style sheet-->
+   <link href="css/main.css" rel="stylesheet">
+  
+  <!--Document information-->
 
-<p> <img src="lone-starfish.jpg" alt="Starfish" style="width:170px;height:170px;margin-right:15px;">
+ <!--Sets background header of the image lone-starfish-wide-->
+   <div class="container">
+   <img src="images/lone-starfish-wide.jpg"  alt="lone-starfish-wide" width= "800" height="300" >
+  <div class="header">Lone Starfish</div>
+  </div>
 
-<h2>Life of a Starfish</h2>
-    <p> Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye,
+        <!--Starts paragraph and adds starfish image, wrapping the text around image-->
+  
+
+ 
+<!--Creates the Navigation bar-->
+<div class="navbar">
+  <nav>
+  <a href="index.html"><strong>HOME   |</strong></a> 
+  <a href="story.html"><strong>STORY |</strong></a> 
+  <a href="contact.html"><strong>CONTACT </strong></a>  
+   </nav>  
+  </div>
+
+  <!--Title and Life of Starfish paragraph-->
+  <article>
+ <h2>Life of a Starfish</h2> 
+ 
+    
+  <img src="images/lone-starfish.jpg"  alt="Starfish" width="200" height="100"><p> Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye,
         "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon 
         archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil 
         trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, 
@@ -75,32 +42,54 @@ body {font-family: Arial, Helvetica, sans-serif;
         danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel 
         tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish 
         searobin false trevally, dottyback.</p>
-
+         
+    </article>
+      
+       
         <h3>Facts About Starfish </h3>
         
-        <p> Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
+        <p>
+          <ul><li> Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li> 
         
-        Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+       <li> Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         
-        Herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
+        <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
         
-        Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.  </p>
+        <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. </li></ul> 
+      
 
     
-    <h2>Contact to learn more</h2>
- 
-   <p>
-  <label>Your Name</label>
-  <input class=" w3-input w3-border w3-round" name="first" type="text"></p>
-  <p>
-  <label>Your Email</label>
-  <input class="w3-input w3-border w3-round-large" name="last" type="text"></p>
-  <p>
-  <label>Your Message</label>
-  <input class="w3-input w3-border w3-round-large" name="last" type="text"></p>
-  <p> Would you like to visit the Starfish?</p>
-  
-  
-</form>
+     <!--Creates Form at the bottom of the page for readers to fill out and submit-->
+     
+     <form action="action">
     
-</head>
+      <h3> Contact to learn more</h3>
+     <div style="border: 1px solid black">
+      <label for="name"><br>Your Name</label><br>
+      <input type="text" id="name" name="name">
+  
+      <label for="email"><br>Your Email</label><br>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message"><br>Your Message</label><br>
+      <textarea id= "message" name="message" rows="10" cols="50"></textarea><br>
+  
+      <h3> Would you like to visit the Starfish?</h3>
+   
+      <label for="yes">Yes</label>
+      <input type="radio" name="past1" id="yes" >
+   
+      <label for="no">No</label>
+      <input type="radio" name="past2" id="no">
+   
+      <label for="maybe">Maybe</label>
+      <input type="radio" name="past1" id="maybe"><br><br>
+      <input type="submit" value="Send">
+    
+   <!-- *********footer of the page********* -->
+   <div class="footer">
+     &copy; <strong> Lone Starfish.</strong>
+   </div>
+  
+  </div>
+ </form>
