@@ -157,11 +157,27 @@ table {
 
 /* -----Tablet--------*/
 
-@media screen and (min-width:400px){
+@media screen and (min-width:400px)and (max-width:500px){
+    .card {
+        max-width:500px;
+    }
     .card img{
         display:block;
         width:100px;
         float:left;
+        margin-right: 0.5rem;
         
     }
+/*------Desk Top--------*/
+
+@media screen and(min-width: 500px){
+    .card img{
+        width:100%;
+        margin-bottom:1rem;
+        display:block;
+    }
+    .card{
+        max-width:300px;
+    }
+}
 }
