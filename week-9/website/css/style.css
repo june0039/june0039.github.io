@@ -159,10 +159,16 @@ h2{
 p{
     margin:1rem 0;
 }
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
 .container{
     padding:1rem;
 
 }
+
 .desktop-logo{
     display:none;
 }
@@ -171,7 +177,7 @@ mobile-logo{
 }
 .banner{
     height: 600px;
-    background:grey url ("../img/mobile-banner.jpg") no repeat center bottom;
+    background:grey url("../images/mobile-banner.jpg") no repeat center bottom;
     background-size: cover;
 }
 .banner h1{
@@ -215,5 +221,37 @@ mobile-logo{
     }
     footer a:hover{
         color:#00Add8;
+
+    }
+    /*desktop styles*/
+
+    @media screen and (min-width:600px) {
+        html{
+            font-size:16px;
+
+    }
+    .mobile-logo{
+        display:none;
+    }
+}
+desktop-logo {
+    display:inline block;
+    max-width:300px;
+}
+.banner {
+    background-image:url("../images/desktop-banner.jpg");
+}
+.banner h1{
+    color:white;
+}
+    /*app section*/
+
+    .app image{
+        width:40%;
+        float:left;
+        margin-right: 1rem;
+    }
+    .app .btn{
+        float:right;
 
     }
