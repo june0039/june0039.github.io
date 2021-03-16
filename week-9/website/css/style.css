@@ -148,3 +148,13 @@ body{
     padding:1rem;
 
 }
+.desktop-logo{
+    display:none;
+}
+mobile-logo{
+    max-width:150px;
+}
+.banner{
+    height: 600px;
+    background:grey url ("../image/mobile-banner.jpg") no repeat center bottom;
+}
