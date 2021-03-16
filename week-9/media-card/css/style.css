@@ -158,7 +158,10 @@ table {
 /* -----Tablet--------*/
 
 @media screen and (min-width:400px){
-    .card images{
+    .card img{
         display:block;
+        width:100px;
+        float:left;
+        
     }
 }
