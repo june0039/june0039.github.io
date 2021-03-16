@@ -144,6 +144,18 @@ html{
 body{
     line-height: 1.5;
 }
+h1,h2{
+    font-weight: bold;
+    /*top left right bottom*/
+    margin:1rem 0 0.5rem;
+}
+h1{
+    font-size: 5.063rem;
+}
+h2{
+    font-size: 3.375rem;
+
+}
 .container{
     padding:1rem;
 
@@ -156,5 +168,12 @@ mobile-logo{
 }
 .banner{
     height: 600px;
-    background:grey url ("../image/mobile-banner.jpg") no repeat center bottom;
+    background:grey url ("../img/mobile-banner.jpg") no repeat center bottom;
+    background-size: cover;
 }
+.banner h1{
+    padding-top: 250px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*main*/
