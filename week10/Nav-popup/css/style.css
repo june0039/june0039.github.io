@@ -106,9 +106,8 @@ nav,
 section {
     display: block;
 }
-
-line-height {
-    1px;
+body{
+line-height:1px;
 
 }
 
@@ -122,15 +121,42 @@ q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before,blockquote:after,
+q:before, q:after {
     content: '';
     content: none;
 }
 
 table {
     border-collapse: collapse;
-    borden}
+    border-spacing:0;
+}
+/*-----CSS RESET ------*/
+/*----- Custom Css -------*/
+
+nav{
+    background-color: #DFE0E1;
+
+}
+.profile{
+    display:flex;
+
+}
+.dots div{
+    background-color:black;
+    border-radius:50%;
+    height:5px;
+    width:5px;
+    margin:0.1rem;
+    opacity:0.6;
+
+}
+.dots{
+    display:flex;
+    
+}
+.pp-img{
+    height:100%;
+    width:2rem;
+    background-color:blue;
 }
