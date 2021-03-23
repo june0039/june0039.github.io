@@ -242,7 +242,17 @@ desktop-logo {
     background-image:url("../images/desktop-banner.jpg");
 }
 .banner h1{
-    color:white;
+    color:white; 
+}
+/* . Main Nav */
+.nav-list{
+    display:flex;
+    border-bottom:none;
+    border-right:1pxsolid grey;
+
+}
+.nav-list{
+    flex-grow:1;
 }
     /*app section*/
 
