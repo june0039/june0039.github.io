@@ -140,7 +140,8 @@ nav{
 }
 .profile{
     display:flex;
-
+    padding:0.2rem;
+    align-items:center;
 }
 .dots div{
     background-color:black;
@@ -153,6 +154,7 @@ nav{
 }
 .dots{
     display:flex;
+    margin:0 0.3rem;
     
 }
 .pp-img{
