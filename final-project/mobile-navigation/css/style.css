@@ -140,10 +140,14 @@ body{
     margin:10%;
     font-family: sans-serif;
 }
-.page {
-    background-color: red;
+ main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
 }
-.header{
+
+h1{
    
         position: fixed;
         bottom: 550px;
@@ -153,13 +157,19 @@ body{
         
         
     }
+    h4{
+        font-size:18px;
+        font-weight: bold;
+    }
     .paragraph {
         position:fixed;
         font-size:12px;
         color:white;
         left:90px;
         bottom:450px;
+        padding: 20px;
     }
+    
 
    .navbar {
     
@@ -191,17 +201,28 @@ body{
     /*Custom Css  */
    .aboutus {
        background-color: khaki;
-       
+
+   }
+   h2{
+       font-size: 20px;
+       font-weight: bold;
+       color:black;
+
+   }
+   h3{
+       font-size:16px;
+       font-weight: bold;
+       color:black;
    }
     .container{
-        left:100%;
+        left:200%;
         bottom:200%;
-        background-color: rgb(46, 45, 45);
-        opacity: 50%;
+        background-color: white;
     }
+
     .mainbanner {
         display:inline block;
-        scale:550%;
+        
 
     }
 
@@ -226,5 +247,22 @@ body{
         nav  {
             display: inline-block;
             border-top: none;
+        }
+        main{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            background-color: darkkhaki;
+        }
+        @media screen and (min-width:850px){
+            main{
+                grid-template-columns:  1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+        }
+        @media screen and (min-width:1200px){
+            main{
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows:1fr 1fr 1fr;
+            }
         }
     }
