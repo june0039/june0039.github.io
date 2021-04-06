@@ -160,6 +160,7 @@ body{
 
     .navbar a:hover {
         background-color:rgba(255, 174, 0, 0.74);
+        color: rgb(46, 45, 45);
     }
 
     .navbar a {
@@ -173,6 +174,12 @@ body{
     }
 
     /*Custom Css  */
+
+    .mainbanner {
+        display:inline block;
+        scale:550%;
+
+    }
 
     nav {
         background-color: rgb(53, 52, 51);
