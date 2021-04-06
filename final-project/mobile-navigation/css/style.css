@@ -136,11 +136,11 @@ table {
 }
 
 /*------------Css Reset--------------*/
-.container {
+.page {
     position: relative;
     text-align: center;
     color:red;
-    background-color: none;
+    background-color: red;
 }
 
 .navbar {
@@ -150,7 +150,7 @@ table {
     background-color:rgb(46, 45, 45);
     overflow: auto;
     padding: 8px;
-    float: left;
+    float: center;
     display: block;
 }
 
@@ -160,12 +160,10 @@ table {
     }
 
     .navbar a {
-        float: left;
+        float: center;
         padding: 12px;
         color:rgba(255, 174, 0, 0.74);
         text-decoration: none;
         font-size: 18px;
-        width: 30%;
-        /* Four links of equal widths */
-        text-align: left;
+        text-align: center;
     }
