@@ -133,7 +133,7 @@ table {
 
 body {
     margin: 10%;
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 
 main {
@@ -150,8 +150,6 @@ h1 {
     left: 90px;
     font-size: 36px;
     color: white;
-
-
 }
 
 h4 {
@@ -170,32 +168,25 @@ h4 {
 
 
 .navbar {
-
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-color: #222;
-    overflow: auto;
-    padding: 8px;
-    display: inline block;
-}
-
-
-.navbar a:hover {
-    background-color: #c78c06;
-    color: #222;
-}
-
-.navbar {
-    display: inline block;
+    
     padding: 1rem;
-    color:#c78c06 ;
-    text-decoration: none;
-    font-size: 18px;
+    display: inline ;
     text-align: center;
-    width: 100%;
-}
+    text-decoration-color: #c78c06;
+    }
 
+.navbar{
+ background-color: #222;
+ font-size: 18px;
+ font-family: "Open San";
+}
+.navbar{
+    border-top: 1px solid #222;
+}
+.navbar  :hover {
+    text-decoration-color: #222;
+    color:#c78c06;
+    }
 
 .aboutus {
     background-color: #ffe6ac;
@@ -205,14 +196,14 @@ h4 {
 h2 {
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color:#222;
 
 }
 
 h3 {
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    color:#222;
 }
 
 .container {
@@ -222,25 +213,15 @@ h3 {
 }
 
 footer{
-    background-color: rgb(46, 45, 45);
+    background-color:#222;
 }
-
-nav {
-    background-color: #222;
-    font-size: 0.96rcm;
-    font-family: sans-serif;
-    display: inline block;
-    text-align: center;
-}
-
-
 
 button {
     background-color: #c78c06;
     font-size: 16px;
 }
 
-/* Mobile Screen*/
+/* Mobile View*/
 
 @media screen and (min-width: 760px) {
     nav {
@@ -251,7 +232,7 @@ button {
     main {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        background-color: rgb(249, 238, 81);
+        background-color: #c78c06;
     }
 }
 
