@@ -107,7 +107,7 @@ section {
     display: block;
 }
 
-line-height {
+ line-height {
     1px;
 
 }
@@ -221,7 +221,7 @@ h1{
     }
 
     .mainbanner {
-        display: block;
+        display: inline;
         }
 
     nav {
@@ -241,7 +241,7 @@ h1{
     }
     /*Desk Top View*/
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
         nav  {
             display: inline-block;
             border-top: none;
@@ -249,7 +249,7 @@ h1{
         main{
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
-            background-color: darkkhaki;
+            background-color: rgb(249, 238, 81);
         }
         @media screen and (min-width:850px){
             main{
