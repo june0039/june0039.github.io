@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ line-height {
+    1px;
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*------------Css Reset--------------*/
+body{
+    margin:10%;
+    font-family: sans-serif;
+}
+ main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+h1{
+   
+        position: fixed;
+        bottom: 550px;
+        left: 90px;
+        font-size: 36px;
+        color: white;
+        
+        
+    }
+    h4{
+        font-size:18px;
+        font-weight: bold;
+    }
+    .paragraph {
+        position:fixed;
+        font-size:12px;
+        color:white;
+        left:90px;
+        bottom:450px;
+        padding: 20px;
+    }
+    
+
+   .navbar {
+    
+    width:100%;
+    height:100%;
+    position: relative;
+    background-color:rgb(46, 45, 45);
+    overflow: auto;
+    padding: 8px;
+    display: inline block;
+}
+    
+
+    .navbar a:hover {
+        background-color:rgba(255, 174, 0, 0.74);
+        color: rgb(46, 45, 45);
+    }
+
+    .navbar a {
+        display:inline block;
+        padding: 18px;
+        color:rgba(255, 174, 0, 0.74);
+        text-decoration: none;
+        font-size: 18px;
+        text-align:center;
+        width:100%;
+    }
+
+    /*Custom Css  */
+   .aboutus {
+       background-color: rgb(230, 213, 63);
+
+   }
+   h2{
+       font-size: 20px;
+       font-weight: bold;
+       color:black;
+
+   }
+   h3{
+       font-size:16px;
+       font-weight: bold;
+       color:black;
+   }
+    .container{
+        left:200%;
+        bottom:200%;
+        background-color: white;
+    }
+
+    .mainbanner {
+        display: inline;
+        }
+
+    nav {
+        background-color: rgb(53, 52, 51);
+        font-size: 0.96rcm;
+        font-family: sans-serif;
+        display:inline block;
+        text-align: center;
+    }
+
+    nav  {
+        border-top: 1px solid rgba(1, 1, 1, 0.2);
+    }
+    button{
+        background-color: rgba(255, 174, 0, 0.74);
+        font-size: 16px;
+    }
+    /*Desk Top View*/
+
+    @media screen and (min-width: 600px) {
+        nav  {
+            display: inline-block;
+            border-top: none;
+        }
+        main{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            background-color: rgb(249, 238, 81);
+        }
+        @media screen and (min-width:850px){
+            main{
+                grid-template-columns:  1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+        }
+        @media screen and (min-width:1200px){
+            main{
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows:1fr 1fr 1fr;
+            }
+        }
+    }
