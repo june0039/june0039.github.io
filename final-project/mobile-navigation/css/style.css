@@ -200,7 +200,7 @@ h1{
 
     /*Custom Css  */
    .aboutus {
-       background-color: khaki;
+       background-color: rgb(230, 213, 63);
 
    }
    h2{
@@ -221,10 +221,8 @@ h1{
     }
 
     .mainbanner {
-        display:inline block;
-        
-
-    }
+        display: block;
+        }
 
     nav {
         background-color: rgb(53, 52, 51);
