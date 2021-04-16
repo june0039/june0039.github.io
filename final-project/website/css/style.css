@@ -107,10 +107,6 @@ section {
     display: block;
 }
 
- line-height {
-    1px;
-
-}
 
 ol,
 ul {
@@ -220,9 +216,7 @@ h1{
         background-color: white;
     }
 
-    .mainbanner {
-        display: inline;
-        }
+
 
     nav {
         background-color: rgb(53, 52, 51);
