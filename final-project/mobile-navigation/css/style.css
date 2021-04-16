@@ -174,7 +174,7 @@ h4 {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: rgb(46, 45, 45);
+    background-color: #222;
     overflow: auto;
     padding: 8px;
     display: inline block;
@@ -182,14 +182,14 @@ h4 {
 
 
 .navbar a:hover {
-    background-color: rgba(255, 174, 0, 0.74);
-    color: rgb(46, 45, 45);
+    background-color: #c78c06;
+    color: #222;
 }
 
-.navbar ul li a {
+.navbar {
     display: inline block;
-    padding: 18px;
-    color: rgba(255, 174, 0, 0.74);
+    padding: 1rem;
+    color:#c78c06 ;
     text-decoration: none;
     font-size: 18px;
     text-align: center;
@@ -198,7 +198,7 @@ h4 {
 
 
 .aboutus {
-    background-color: rgb(230, 213, 63);
+    background-color: #ffe6ac;
 
 }
 
@@ -226,19 +226,17 @@ footer{
 }
 
 nav {
-    background-color: rgb(46,45,45);
+    background-color: #222;
     font-size: 0.96rcm;
     font-family: sans-serif;
     display: inline block;
     text-align: center;
 }
 
-nav {
-    border-top: 1px solid rgba(1, 1, 1, 0.2);
-}
+
 
 button {
-    background-color: rgba(255, 174, 0, 0.74);
+    background-color: #c78c06;
     font-size: 16px;
 }
 
