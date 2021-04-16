@@ -156,6 +156,10 @@ h2 {
     font-size: 60px;
     color:black;
 }
+h3{ 
+    font-size: 72px;
+    color: black;
+}
 
  .header{
     background-color: #222;
@@ -174,26 +178,27 @@ h4 {
     color: white;
 }
     
+ 
+.digital {
+    background-color:#ffe6ac;
+    text-decoration-color:black;
+    
+}
 
-
-
-.navbar {
+nav {
     
     padding: 1rem;
     display: inline ;
     text-align: center;
-    text-decoration-color: #c78c06;
+    font-size: 18px;
+    font-display: #c78c06;
     }
 
-.navbar{
- background-color: #222;
- font-size: 18px;
- font-family: "Open San";
-}
+
 .navbar{
     border-top: 1px solid #222;
 }
-.navbar  :hover {
+nav :hover {
     text-decoration-color: #222;
     color:#c78c06;
     }
@@ -216,19 +221,16 @@ h3 {
     color:#222;
 }
 
-.container {
-    left: 200%;
-    bottom: 200%;
-    background-color: white;
-}
+
 
 footer{
     background-color:#222;
 }
 
 button {
-    background-color: #c78c06;
+    background-color:#222;
     font-size: 16px;
+    color: white;
 }
 
 /* Mobile View*/
