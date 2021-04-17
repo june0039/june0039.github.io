@@ -157,19 +157,19 @@ h2 {
     color:black;
 }
 h3{ 
+    font-family: san serif;
     font-size: 72px;
     color: black;
-}
-
- .header{
-    background-color: #222;
-    opacity:50%;
-
 }
 
 h4 {
     font-size: 18px;
     font-weight: bold;
+}
+h5{
+    font: size 60px;
+    color:black;
+    font-family:sans serif;
 }
 
 .paragraph {
