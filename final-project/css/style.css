@@ -221,7 +221,7 @@ section{
 /* Border and colors for Location table */
 table{
     border-collapse:collapse;
-    border:1px solid black
+    border:1px solid black;
 }
 /*Location table th boxes background color*/
 th{
@@ -231,7 +231,7 @@ th{
 footer{
     background-color:#222;
 }
-/
+
 button {
     background-color:#222;
     font-size: 16px;
