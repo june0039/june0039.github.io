@@ -98,10 +98,6 @@ nav,
 section {
     display: block;
 }
-body{
-    line-height: 1;
-}
-
 
 ol,
 ul {
@@ -121,126 +117,140 @@ q:after {
     content: none;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
 
 /*------------Css Reset--------------*/
 
 /* ---Custome Css ------*/
 
 
+/* Mobile View */
+
+/* container size */
+.container {
+    max-width: 1200px;
+
+}
+/* body style and margins */
 body {
     margin: 10%;
     font-family: Open Sans;
+    line-height: 1rem;
 }
-
+/* styles and color for main class */
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
 }
-
+/* Position of Header h1 and font style/ size */
 h1 {
-
     position: absolute;
     bottom: 450px;
     left: 90px;
     font-size: 36px;
     color: white;
 }
+/* Position/font color and styles of h2 */
 h2 {
     font-family: sans-serif;
     font-size: 60px;
     color:black;
 }
+/* Position/font color and styles of h3 */
 h3{ 
-    font-family: san serif;
+    font-family: sans-serif;
     font-size: 72px;
     color: black;
 }
-
+/* Position/font color and styles of h4 */
 h4 {
     font-size: 18px;
     font-weight: bold;
 }
+/*Position/font color and styles of h5 */
 h5{
     font: size 60px;
     color:black;
     font-family:sans serif;
 }
+/* color and styling of all the sections*/
+section{
+    background-color: #ffe6ac;
+    image-rendering: inherit;
+}
 
+/* color and styling of all paragraphs */
 .paragraph {
     position: absolute;
     font-size: 12px;
     color: white;
 }
-    
- 
-.digital {
-    background-color:#ffe6ac;
-    text-decoration-color:black;
-    
-}
-
-nav {
-    
+/* color and style of navbar list items */    
+.navbar li ul{
     padding: 1rem;
     display: inline ;
     text-align: center;
     font-size: 18px;
-    font-display: #c78c06;
+    color: #c78c06;
+    background-color:#222;
     }
-
-
-.navbar{
-    border-top: 1px solid #222;
+/* positions navbar image and margins */
+.logo img{
+    float: left;
+    margin:1rem;
 }
-nav :hover {
-    text-decoration-color: #222;
+/* color and styles hover for the navbar */
+.navbar :hover {
+    
     color:#c78c06;
     }
-
+/* color and styles class aboutus */
 .aboutus {
     background-color: #ffe6ac;
+    }
 
+/* dynamics of image in class aboutimg*/
+.aboutimg{
+    width:100%;
+    float:center;
+    max-width: 400px;
+    max-height: 600px;
+    margin:1rem;
 }
-
-h2 {
-    font-size: 20px;
-    font-weight: bold;
-    color:#222;
-
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: bold;
-    color:#222;
-}
-
+/* Border and colors for Location table */
 table{
     border-collapse:collapse;
     border:1px solid black
 }
+/*Location table th boxes background color*/
 th{
     background-color: #ffe6ac;
 }
+/* Footer color, and size fonts */
 footer{
     background-color:#222;
 }
-
+/
 button {
     background-color:#222;
     font-size: 16px;
     color: white;
 }
-
-/* Mobile View*/
+ 
+.paragraph {
+    left: 90px;
+    bottom: 350px;
+    padding: 20px;
+}
+/* Desk top */
 
 @media screen and (min-width: 760px) {
+    img {
+        width:100%;
+    }
+    
+    
     nav {
         
         border-top: none;
@@ -251,16 +261,10 @@ button {
         grid-template-rows: 1fr;
         background-color: #c78c06;
     }
-    .paragraph{
-        left: 90px;
-        bottom: 350px;
-        padding: 20px;
-    }
+    
 }
 
-/*Desk Top View*/
 
-@media screen and(min-width:1200px){
     nav li{
         display:inline;
     }
@@ -272,13 +276,3 @@ button {
     a{
         display:in-line block;
     }
-}
-
-/*Tablet Screen*/
-
-@media screen and (min-width:900px) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
