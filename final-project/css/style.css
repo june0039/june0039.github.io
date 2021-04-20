@@ -126,8 +126,6 @@ q:after {
 /* Mobile View */
 
 /* container size */
-
-
 .container {
     display:flex;
     flex-wrap:wrap;
@@ -172,20 +170,20 @@ h3{
     font-size: 28px;
     font-style: bold;
     color: black;
-    padding:0.5rem 0.5rem;
+    padding:1rem 1rem;
 }
 /* Position/font color and styles of h4 */
 h4 {
     font-family:'Open sans';
     font-size: 18px;
     font-weight: bold;
-    padding:0.5rem 0.5rem;
+    padding:1rem 1rem;
 }
 /*Position/font color and styles of h5 */
 h5{
     font: size 60px;
     color:black;
-    font-family:sans serif;
+    font-family: sans-serif;
 }
 /* color and styling of all the main html*/
 main{
@@ -274,7 +272,7 @@ nav{
     }
     .navbar{
         
-        max-width: 450px;
+        max-width: 1000px;
         max-height: 450px;
     }
 
