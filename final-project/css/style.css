@@ -140,9 +140,7 @@ body {
     font-family: 'Open Sans';
     line-height: 1rem;
 }
-/* styles and color for main class */
-
-
+/* styles and color for mainbanner class */
 
 .mainbanner{
     
@@ -165,7 +163,7 @@ h2 {
     font-family: sans-serif;
     font-size: 45px;
     color:black;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     font-style: bold;
 }
 /* Position/font color and styles of h3 */
@@ -189,7 +187,7 @@ h5{
     color:black;
     font-family:sans serif;
 }
-/* color and styling of all the sections*/
+/* color and styling of all the main html*/
 main{
     background-color: #ffe6ac;
 }
@@ -259,6 +257,7 @@ main{
     font-size: 12px;
     color: white;
 }
+
 /* color and style of navbar list items */    
 nav ul li a{
     padding: 1rem;
@@ -266,12 +265,17 @@ nav ul li a{
     text-align: center;
     color:#c78c06;
 }
-
+/* Color and font- sizes of navigation */
 nav{
     
     font-size: 18px;
     color: #c78c06;
     background-color:#222;
+    }
+    .navbar{
+        
+        max-width: 450px;
+        max-height: 450px;
     }
 
 /* positions navbar image and margins */
@@ -333,6 +337,8 @@ img {
 /* Footer color, and size fonts */
 footer{
     background-color:#222;
+    color:#c78c06;
+    padding:1rem;
 }
 
 button {
@@ -350,7 +356,7 @@ button {
 /* Desk top */
 
 @media screen and (min-width: 760px) {
-    
+
     nav ul li a {
         padding: 1rem;
         display: inline-block;
@@ -358,19 +364,26 @@ button {
         color: #c78c06;
     }
 
-    main{
-        display:grid;
-        grid-template-columns:1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         background-color: #ffe6ac;
-        grid-column-gap:1rem;
+        grid-column-gap: 1rem;
     }
-   main > section{
-       padding:0.5rem 0.5rem;
-       display:flex;
-       justify-content:center;
-       align-items: flex-start;
+
+    main>section {
+        padding: 0.5rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
 
 
+    }
+
+    footer {
+        background-color: #222;
+        color: #c78c06;
+        padding: 1rem;
     }
 }
