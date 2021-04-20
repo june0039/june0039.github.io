@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- links to css style sheet and font/ icon pages-->
-    <link href="/final-project/mobile-navigation/css/style.css" rel="stylesheet">
+    <link href="/final-project/css/style.css" rel="stylesheet">
    <link href=" https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
-   <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- <link href="<link rel="preconnect" href="https://fonts.gstatic.com">-->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
    <!--Title of the project-->
@@ -21,7 +21,7 @@
    <div class="navbar">
       <nav>
        <!-- Logo Image -->   
-      <img src="/final-project/mobile-navigation/images/logo.png"  alt="logo.png" width= "80" height="80" class="logo">
+      <img src="/final-project/images/logo.png"  alt="logo.png" width= "80" height="80" class="logo">
       
       <!--Navigation Bar-->
       <ul>
@@ -35,24 +35,26 @@
     </ul>  
     </nav>  
    </div>
-</div>
+
 
    <!--Main Banner div and picture-->
-    <main>
+<main>
+
     <div class="mainbanner">
-    <img src="images/main-banner.jpg" alt="main-banner" width="700" height="350" class="mainbanner">
-    <div class="header">
-        
-        <h1> Welcome to Three Star <br> Media</h1>
+    <img src="images/main-banner.jpg" alt="main-banner">
+     <div class="welcome">
+        <h1> Welcome to Three Star Media</h1>
         <div class="paragraph">
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
        <br> tempor incididunt ut labore et dolore magna aliqua.  
         <br>ut aliquip ex ea commodo consequat. </p>
         <button name= "btn1" button type="submit">Connect with us</button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"></svg>
-   </div>
-    </div>
+      </div>
+      </div>
+      </div>
+   
 
-   <div class="aboutus"> 
+   <section class="aboutus"> 
     <h2>About Us</h2>
      <img src="images/about-us.jpg" alt="aboutus" width="300" height="100"class="aboutimg">
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -61,13 +63,12 @@
         nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa ...</p>
        </div>
        
-       <h2>Our Services</h2>
        
-       <div class="digital">
+       
+          <section class="digital">
             <!--first box / child of main container Digital Transformation-->
-             <section>
+             <h2>Our Services</h2>
             <img src="images/digital.jpg" alt="digital" width="580" height="200"class="digitalimg">
-            <div class= "content">
              <h3>Digital Transformation</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
@@ -75,11 +76,11 @@
         nulla pariatur. Excepteur sint </p>
         <button type="submit">Digital Plans<svg width="24" height="24"  name= "digital" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg></button>
            </section>
-           </div>
+        
            
-           <section>
-           <div class="marketing">
-             <img src="images/marketing.jpg" alt="marketing" width="400" height= "200" >
+           <section class = "marketing">
+            <div class="market">
+             <img src="images/marketing.jpg" alt="marketing" width="580" height= "200" >
               <h3>Marketing</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
@@ -88,20 +89,19 @@
         <button type="submit">Marketing Plans<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg></button>
         </div> 
            </section>
-        <section>
-        <div class="video">
-           <img src="images/video.jpg" alt="video" width="400" height= "200">
-            <h3>Video Production</h3>
+         
+        <section class ="video">
+            <img src="images/video.jpg" alt="video">
+           <h3>Video Production</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
         ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
         nulla pariatur. Excepteur sint</p>
         <button type="submit">Video Plans<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg> </button>
-            </div>
+        
         </section>
 
-        <section>
-             <div class= "web">
+        <section class= "web">
                 <img src="images/web.jpg" alt="web" width="400" height= "200">
             <h3>Web Development</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -109,11 +109,10 @@
         ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
         nulla pariatur. Excepteur sint</p>
         <button type="submit">Web Plans<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg></button>
-            </div>
+        
         </section>
         
-        <section>
-        <div class="Print">
+        <section class="print">
            <img src="images/print.jpg" alt="print" width="400" height= "200" >
              <h3>Print</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -121,45 +120,41 @@
         ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
         nulla pariatur. Excepteur sint</p>
         <button type="submit">Print Plans<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg></button>
-        </div>
         </section>
 
-        <section>
-    <div class= "vision">
+        <section class= "vision">
         <img src="images/vision.jpg" alt="vision" width="400" height="400">
-    <div class= "content">
-        <h5>Our Vision</h5>
+        <div class= "visioncontent">
+        <h3>Our Vision</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
         ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
         nulla pariatur. Excepteur sint</p>
         <button type="submit">Learn More <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg></button>
     </div>
-    </div>
-</section>
-<section>
-    <header>Our Team</header>
+   </section>
+
+   <section class="ourteam">
+    <h3>Our Team</h3>
     <div class= "team">
         <img src="images/john.jpg" alt="john" width="400" height= "400">
-    <div class="john">
-        <h3>John Doe</h3><h2>CEO and Co-owner</h2>
+    
+        <h3>John Doe</h3><h4>CEO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
         nulla pariatur. Excepteur sint</p>
     </div>
-    
+    <div class="bob">
+    <img src="images/bob.jpg" alt="john" width="400" height= "400">
+      <h3>Bob Rite</h3><br><h4>CFO and Co-owner</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+        nulla pariatur. Excepteur sint</p>
     </div>
 </section>
 
-<section>
-        <img src="images/bob.jpg" alt="john" width="400" height= "400">
-    <div class="bob">
-        <h3>Bob Rite</h3><br><h2>CFO and Co-owner</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-        nulla pariatur. Excepteur sint</p>
-    </div>
-</section>
+</main>
+
 <!-- Form to contain for filling out Contact Us-->
     <br><h2> Contact Us</h2><br><h3>Send us a message</h3><br>
      <form action="thanks.html" method="post">
@@ -206,6 +201,6 @@
 
 </main>
 </footer>
-</div>
+
 </body>
 </html>
