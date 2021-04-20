@@ -164,13 +164,11 @@ h2 {
     font-size: 45px;
     color:black;
     padding: 1rem 1rem;
-    font-style: bold;
-}
+    }
 /* Position/font color and styles of h3 */
 h3{ 
     font-family: 'Open Sans';
     font-size: 28px;
-    font-style: bold;
     color: black;
     padding:1rem 1rem;
 }
@@ -183,7 +181,7 @@ h4 {
 }
 /*Position/font color and styles of h5 */
 h5{
-    font: size 60px;
+    font-size: 60px;
     color:black;
     font-family: sans-serif;
 }
@@ -284,7 +282,7 @@ nav{
 
 /* positions navbar image and margins */
 .logo img{
-    size:18px 18px;
+    
     float: left;
 }
 /* color and styles hover for the navbar */
@@ -297,7 +295,7 @@ nav ul li :hover {
 /* dynamics of image in class aboutimg*/
 .aboutimg{
     width:100%;
-    float:center;
+    
 }
 /* Border and colors for Location table */
 table{
@@ -314,7 +312,7 @@ thead th{
     height:100%;
     vertical-align: top;
     text-align: left;
-    border-left: 1 px solid black;
+    border-left: 1px solid black;
     font-size: 18px;
 }
 td, tr{
@@ -331,7 +329,6 @@ th{
 caption{
     font-size: 28px;
     padding:1rem 1rem;
-    font-style: bold;
     text-align: left;
 }
 img {
