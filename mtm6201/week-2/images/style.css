@@ -1,0 +1,16 @@
+/* For display on screen size 600px and under, Mobile size*/
+/* Mobile Window */
+@media screen and(max width:600px){
+    
+    #nav{
+        border: 3px solid black;
+        background-color: beige;
+    }
+
+}
+
+/*Web page*/
+@media screen and (max width: 600px){
+
+
+}
