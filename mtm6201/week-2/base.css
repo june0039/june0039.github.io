@@ -11,13 +11,12 @@
 #main {
   max-width: 1200px;
   margin: 0px auto;
-
   background-color: rebeccapurple;
 }
 
-.nav .nav-link {
+.nav href.nav-link {
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
 }
