@@ -27,7 +27,7 @@
 
     }
     #main.main{
-        background-color:beige;
+        background-color:darkseagreen;
         text-align: center;
         font-family: Georgia;
     }
@@ -39,25 +39,23 @@
         font-size: 1rem;
     }
 
- h1.page-title{
-     color:lightcoral;
- }
- h2.section-title {
-     color:lightcyan;
- }
+
 
  h1.page-title,
  h2.section-title {
      font-size: 1.5rem;
      text-align: center;
      font-family: Georgia;
+     color:lightgoldenrodyellow;
  }
 
  #about.about {
      border:3px solid black;
      background-color:darkslategray;
      flex-wrap: wrap;
- }
+     font-family:Georgia;
+     font-size: 1rem;
+     }
 
 /*Web page*/
 @media screen and (min-width: 600px){
@@ -71,7 +69,7 @@
     margin: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
-    color:cornflowerblue;
+    color:coral;
     font-family: Georgia;
     text-decoration: none;
     text-align: center;
@@ -87,7 +85,7 @@
     h2.section-title {
         font-size: 1.5rem;
         text-align: center;
-        color:darkslateblue;
+        color:lightgoldenrodyellow;
     }
 
 }
