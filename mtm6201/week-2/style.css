@@ -2,7 +2,7 @@
 /* Mobile Window */
 
     
-    #nav.nav{
+    a#nav.nav{
         border: 3px solid black;
         background-color: beige;
 
@@ -10,7 +10,7 @@
     .nav{
         display:flex;
     }
-    #main{
+    #main.main{
         background-color: cadetblue;
     }
 
