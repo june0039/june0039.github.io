@@ -46,7 +46,7 @@ section.home {
 .about {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
-  color: lavender
+  color: rgb(116, 116, 139);
 }
 
 .about-image {
@@ -57,7 +57,7 @@ section.home {
 
 #contact {
   padding: 100px 0px;
-  background-color: f
+  background-color:navy;
 }
 
 .contact-form {
