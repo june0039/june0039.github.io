@@ -11,11 +11,13 @@
 #main {
   max-width: 1200px;
   margin: 0px auto;
+
   background-color: rebeccapurple;
 }
 
-.nav href.nav-link {
+.nav .nav-link {
   margin: 1rem;
+
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -46,7 +48,7 @@ section.home {
 .about {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
-  color: rgb(116, 116, 139);
+  color: lavender
 }
 
 .about-image {
@@ -57,7 +59,7 @@ section.home {
 
 #contact {
   padding: 100px 0px;
-  background-color:navy;
+  background-color: f
 }
 
 .contact-form {
