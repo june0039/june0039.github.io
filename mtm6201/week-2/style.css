@@ -1,21 +1,22 @@
-/* For display on screen size 600px to 400px, Mobile size*/
+/* For display on screen size 600px and under, adjustments of all elements Mobile size*/
 /* Mobile Window */
 
 /* This changes the color of the background of the nav bar and adds a border, centers the text and adds padding between the text*/   
-    #nav.nav{
+   nav#nav{
         border: 3px solid black;
         background-color: beige;
         text-align: center;
         padding: 30px;
         display:flex;
         flex-wrap: wrap;
+        width:300px;
         }
 
 /* This adds a margin around text on nav bar and links, adjusts the font size, bolds, changes font to Georgia, 
 centers text and adjusts links color.*/
-   #nav.nav .nav-link {
+   nav.nav .nav-link {
         margin: 0.5rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         font-family:  Georgia;
         text-decoration: none;
@@ -25,7 +26,7 @@ centers text and adjusts links color.*/
         
 
 /*This adjusts the background-color for the main section, centers the text and changes the font to Georgia.*/
-    #main.main{
+   main#main{
         background-color:darkseagreen;
         text-align: center;
         font-family: Georgia;
@@ -34,7 +35,7 @@ centers text and adjusts links color.*/
     }
 
 /*This adjusts font to Georgia and background-color and font size for the home section, as well adds flex wrap,and a border.*/
-     #home.home{
+     section#home{
         flex-wrap: wrap;
         border:3px solid black;
         font-family: Georgia;
@@ -53,7 +54,7 @@ centers text and adjusts links color.*/
  }
 
  /*This adjusts the about section background color, font size and type and adds a border and a flex wrap.*/
- #about.about {
+ section#about {
      border:3px solid black;
      background-color:darkslategray;
      flex-wrap: wrap;
@@ -98,26 +99,35 @@ centers text and adjusts links color.*/
        width:400px;
 }
 
+/*This adjusts the form section margins and width.*/
+form.contact-form {
+    width: 150px;
+}
 
 
- /*This adds a media screen for windows 600px and up,  for web page design and adjustments.*/    
-/*Web page*/
+ /*This adds a media screen for windows 600px and up, for tablet size design and adjustments.*/    
+/*Tablet page*/
 @media screen and (min-width: 600px){
 
 /*This adjusts the font size and margins of the nav bar and link at 600px and up.*/ 
-  #nav.nav .nav-link {
+   nav.nav .nav-link {
      margin: 1rem;
      font-size: 2rem;
      width:800px;
     }
 
+/*This adjusts the navigation bar size to the full screen at 600px and up.*/
+    nav#nav{
+        width:1200px;
+    }
+
 /*This adjusts the home sections font size at 600px and up.*/
-    #home.home {
+    section#home{
         font-size: 1.5rem;
     }
 
 /*This adjusts the home sections font size at 600px and up.*/
-    #about.about {
+    section#about {
         font-size: 1.5rem;
     }
 
@@ -128,7 +138,7 @@ centers text and adjusts links color.*/
     }
 
 /*This adjusts the main content font size 600px and over.*/
-    #main.main{
+    main#main{
         font-size: 2rem;
     }
 
@@ -148,16 +158,24 @@ img.about-image {
      font-size: 1.5rem;
      
  }
+ /*This adjusts the form section margins and width.*/
+ form.contact-form {
+     width: 500px;
+ }
 }
 
 
-/*This is for full screen web page 900 px and up all adjustments.*/
+/*This is for full screen Web page Design 900 px and up all adjustments.*/
+/*WebPage*/
 @media screen and (min-width: 900px){
-
-    #nav.nav .nav-link {
+  nav.nav .nav-link {
      margin: 1rem;
      font-size: 2rem;
      width:1100px;
+}
 
-    }
+/*This adjusts the form section margins and width.*/
+form.contact-form {
+    width: 800px;
+}
 }
