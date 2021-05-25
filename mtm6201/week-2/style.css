@@ -98,19 +98,7 @@ centers text and adjusts links color.*/
        width:400px;
 }
 
-/*This adds a media screen for windows 400px and under, to adjust elements.*/
-@media screen and (max width:400px){
 
-/*This adjusts width and text on nav bar and nav links.*/
-    #nav.nav .nav-link{
-        width:300px;
-        text-align: center;
-    }
-    /*This adjusts the form section margins and width.*/
-    form.contact-form{
-        width: 100px;
-    }
-}
 
  /*This adds a media screen for windows 600px and up,  for web page design and adjustments.*/    
 /*Web page*/
