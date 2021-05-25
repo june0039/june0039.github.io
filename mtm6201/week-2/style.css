@@ -1,46 +1,49 @@
-/* For display on screen size 600px and under, Mobile size*/
+/* For display on screen size 600px to 400px, Mobile size*/
 /* Mobile Window */
 
-    
+/* This changes the color of the background of the nav bar and adds a border, centers the text and adds padding between the text*/   
     #nav.nav{
         border: 3px solid black;
         background-color: beige;
         text-align: center;
         padding: 30px;
-}
-    #nav.nav{
         display:flex;
         flex-wrap: wrap;
-        text-align: center;
-        
-    }
+        }
 
+/* This adds a margin around text on nav bar and links, adjusts the font size, bolds, changes font to Georgia, 
+centers text and adjusts links color.*/
    #nav.nav .nav-link {
         margin: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: bold;
         font-family:  Georgia;
         text-decoration: none;
         text-align: center;
         color:coral;
+        }
         
 
-    }
+/*This adjusts the background-color for the main section, centers the text and changes the font to Georgia.*/
     #main.main{
         background-color:darkseagreen;
         text-align: center;
         font-family: Georgia;
+        font-size: 1rem;
+        font-weight: bold;
     }
+
+/*This adjusts font to Georgia and background-color and font size for the home section, as well adds flex wrap,and a border.*/
      #home.home{
         flex-wrap: wrap;
         border:3px solid black;
         font-family: Georgia;
         background-color:darkseagreen;
         font-size: 1rem;
+        font-weight: bold;
     }
 
-
-
+/*This adjusts elements h1 and h2, font size, text alignment to center, font to Georgia and font color.*/
  h1.page-title,
  h2.section-title {
      font-size: 1.5rem;
@@ -49,6 +52,7 @@
      color:lightgoldenrodyellow;
  }
 
+ /*This adjusts the about section background color, font size and type and adds a border and a flex wrap.*/
  #about.about {
      border:3px solid black;
      background-color:darkslategray;
@@ -57,41 +61,115 @@
      font-size: 1rem;
      }
 
+/*This adjusts the form background color and elements.*/
+    form.contact-form{
+        background-color:lightgoldenrodyellow;
+        flex-wrap:wrap;
+    }
+
+/*This adjusts the label font sizes and font type on the form.*/
+    label.contact-form-label{
+        display: flex;
+        flex-wrap: wrap;
+        color:coral;
+        font-size: 1rem;
+        font-family:Georgia;
+    }
+
+/*This adjusts the image size and dimensions on the about section.*/
+    img.about-image{
+      width: 150px;
+      float:inline-start;
+}
+
+ /*This adjusts the margins, borders and padding for the contact section.*/
+     section#contact{
+       border:3px solid black;
+}
+
+  /*This adjusts the button font size, types and color.*/
+     button{
+      font-size: 1rem;
+      font-family: Georgia;
+}
+
+/*This adjusts the form section margins and width.*/
+   form.contact-form{
+       width:400px;
+}
+
+/*This adds a media screen for windows 400px and under, to adjust elements.*/
+@media screen and (max width:400px){
+
+/*This adjusts width and text on nav bar and nav links.*/
+    #nav.nav .nav-link{
+        width:300px;
+        text-align: center;
+    }
+    /*This adjusts the form section margins and width.*/
+    form.contact-form{
+        width: 100px;
+    }
+}
+
+ /*This adds a media screen for windows 600px and up,  for web page design and adjustments.*/    
 /*Web page*/
 @media screen and (min-width: 600px){
 
- #nav.nav{
-        display: flex;
-        text-align: center;
+/*This adjusts the font size and margins of the nav bar and link at 600px and up.*/ 
+  #nav.nav .nav-link {
+     margin: 1rem;
+     font-size: 2rem;
+     width:800px;
     }
 
-#nav.nav .nav-link {
-    margin: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:coral;
-    font-family: Georgia;
-    text-decoration: none;
-    text-align: center;
-}
+/*This adjusts the home sections font size at 600px and up.*/
     #home.home {
-        flex-wrap: wrap;
-        border: 3px solid black;
-        font-family: Georgia;
-        background-color: darkseagreen;
         font-size: 1.5rem;
     }
+
+/*This adjusts the home sections font size at 600px and up.*/
+    #about.about {
+        font-size: 1.5rem;
+    }
+
+ /*This adjusts the h1 and h2 headers font size to 2rem at 600px and up.*/
     h1.page-title,
     h2.section-title {
-        font-size: 1.5rem;
-        text-align: center;
-        color:lightgoldenrodyellow;
+        font-size: 2.5rem;
     }
 
+/*This adjusts the main content font size 600px and over.*/
+    #main.main{
+        font-size: 2rem;
+    }
+
+/*This adjusts the label font sizes 600px and up.*/
+label.contact-form-label{
+    font-size: 2rem;
+}
+
+/*This adjusts the image size and dimensions on the about section.*/
+img.about-image {
+    width: 250px;
+    float:left;
+
+}
+ /*This adjusts the button font size, types and color.*/
+ button {
+     font-size: 1.5rem;
+     
+ }
 }
 
 
-
+/*This is for full screen web page 900 px and up all adjustments.*/
 @media screen and (min-width: 900px){
 
+    #nav.nav .nav-link {
+     margin: 1rem;
+     font-size: 2rem;
+     width:1100px;
+
+    }
 }
