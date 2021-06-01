@@ -38,11 +38,11 @@
     .logo{
         grid-area:logo;
     }
-    nav{
+    .nav{
         grid-area: nav;
 
     }
-    main{
+    .main{
         grid-area: main;
 
     }
@@ -63,5 +63,10 @@
         "main main main"
         "main main sidebar"
         "footer footer footer";
+    }
+    @media (min-width:1200px){
+        .grid{
+            width:1200px;
+        }
     }
 }
