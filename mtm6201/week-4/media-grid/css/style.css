@@ -35,6 +35,7 @@
         "main main sidebar"
         "footer footer footer"
     }
+
     .logo{
         grid-area:logo;
     }
@@ -53,6 +54,7 @@
         grid-area: footer;
     }
 }
+
 @media (min-width:1000px){
     .grid{
         width: 1000px;
@@ -64,9 +66,10 @@
         "main main sidebar"
         "footer footer footer";
     }
+}
+
     @media (min-width:1200px){
         .grid{
             width:1200px;
         }
     }
-}
