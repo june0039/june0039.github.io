@@ -2,6 +2,9 @@ body{
     display:flex;
     color:salmon;
 } 
+.img{
+    width:800px;
+}
 p{
     color: orange;
 }
