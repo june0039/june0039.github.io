@@ -1,10 +1,25 @@
 body{
     display:flex;
+    color:salmon;
 } 
 
 p2{
     font-size: 24px;
     color: red;
-
 }
 
+p1{
+    color:slateblue;
+}
+p3{
+    color:black;
+    font-size: 18px;
+}
+p4{
+    color:chocolate;
+}
+
+footer{
+    background-color: #fffd8c;
+
+}
