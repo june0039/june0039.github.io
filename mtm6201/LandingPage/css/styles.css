@@ -23,3 +23,12 @@ footer{
     background-color: #fffd8c;
 
 }
+
+/*Tablet screen size*/
+
+@media screen and(min-width:650px){
+
+    body{
+        color:blue;
+    }
+}
