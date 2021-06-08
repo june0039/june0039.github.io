@@ -32,15 +32,9 @@ h4 {
 img {
   display: block;
 }
-img { 
-  display:block;
-  /*max-width:100%;
-  height:auto;*/
 
-  /*make all images fit comntainer up to 100% width*/
-}
-  
-
-.header {
+@media (min-width: 960px) {
+  .header {
     grid-template-columns: repeat(2, 1fr);
   }
+}
