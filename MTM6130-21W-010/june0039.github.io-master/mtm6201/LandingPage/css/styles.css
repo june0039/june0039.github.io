@@ -13,18 +13,18 @@ main {
 
 
 .logo {
-    align-items: flex-start;
+    
     width: 100px;
 }
  .scooter{
-    display: flex;
-    justify-content:space-around;
+
     width: 200px;
 }
 .twitter{
-
+    align-items: center;
 }
 .facebook{
+    align-items: center;
 
 }
 
