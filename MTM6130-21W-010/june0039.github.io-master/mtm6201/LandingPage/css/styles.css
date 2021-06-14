@@ -1,5 +1,5 @@
 body{
-    color:black;
+    color:#333131;
     flex-direction: column;
 } 
 main {
@@ -14,12 +14,12 @@ main {
 
 .logo {
     align-items: flex-start;
-    width: 30px;
+    width: 100px;
 }
  .scooter{
     display: flex;
     justify-content:space-around;
-    width: 100px;
+    width: 200px;
 }
 .twitter{
 
@@ -29,35 +29,31 @@ main {
 }
 
 p{
-    color:black;
+    color:#333131;
 }
 p1{
-    color:black;
+    color:#333131;
 }
-   p2{
-       color:red;
+p2{
+       color:#ff8480;
    } 
 
 p3{
-    color:black;
+    color:#333131;
     font-size: 18px;
 }
 p4{
-    color:black;
+    color:333131;
 }
 
 footer{
     background-color: #fffd8c;
 
 }
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
+
 .logo {
     align-items: flex-start;
-    width: 30px;
+    width: 100px;
 }
 
 .scooter {
@@ -65,13 +61,23 @@ main {
     justify-content: space-around;
     width: 100px;
 }
-
+button{
+    background-color: #57eeab;
+}
+button2{
+    background-color: #ff8480;
+    color:#f7f7ff;
+}
 .twitter {
 }
 @media screen and(min-width:650px){
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
 
-    
 }
 @media screen and(min-width:900px){
     img .logo {
