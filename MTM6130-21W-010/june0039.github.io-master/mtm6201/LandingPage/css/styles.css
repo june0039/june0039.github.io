@@ -1,12 +1,12 @@
 body{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     color:black;
     flex-direction: column;
 } 
 main {
     display:grid;
+    flex-wrap: wrap;
+    max-width: 600px;
+    justify-content: flex-start;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
@@ -67,6 +67,11 @@ main {
 }
 
 .twitter {
+}
+@media screen and(min-width:650px){
+
+
+    
 }
 @media screen and(min-width:900px){
     img .logo {
