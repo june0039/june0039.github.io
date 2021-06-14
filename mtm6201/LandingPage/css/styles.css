@@ -1,12 +1,12 @@
 body{
     display:flex;
-    color:salmon;
+    color:black;
 } 
 img{
     width:800px;
 }
 p{
-    color: orange;
+    color:black;
 }
 
 p2{
@@ -15,7 +15,7 @@ p2{
 }
 
 p1{
-    color:slateblue;
+    color:Black;
 }
 p3{
     color:black;
