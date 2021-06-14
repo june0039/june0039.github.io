@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    color:black;
+} 
+img{
+    width:800px;
+}
+p{
+    color:black;
+}
+
+p2{
+    font-size: 24px;
+    color: red;
+}
+
+p1{
+    color:Black;
+}
+p3{
+    color:black;
+    font-size: 18px;
+}
+p4{
+    color:chocolate;
+}
+
+footer{
+    background-color: #fffd8c;
+
+}
+
+@media screen and(min-width:650px){
+
+    body{
+        color:blue;
+    }
+}
