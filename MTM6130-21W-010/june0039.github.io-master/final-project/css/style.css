@@ -1,0 +1,389 @@
+   /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/*------------Css Reset--------------*/
+
+/* ---Custome Css ------*/
+
+
+/* Mobile View */
+
+/* container size */
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 1200px;
+
+}
+/* body style and margins */
+body {
+    margin: 1rem;
+    font-family: 'Open Sans';
+    line-height: 1rem;
+}
+/* styles and color for mainbanner class */
+
+.mainbanner{
+    
+    background-color: #222;
+}
+
+/* Position of Header h1 and font style/ size */
+h1 {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 450px;
+    left: 90px;
+    font-size: 60px;
+    color: white;
+    
+}
+/* Position/font color and styles of h2 */
+h2 {
+    font-family: sans-serif;
+    font-size: 45px;
+    color:black;
+    padding: 1rem 1rem;
+    }
+/* Position/font color and styles of h3 */
+h3{ 
+    font-family: 'Open Sans';
+    font-size: 28px;
+    color: black;
+    padding:1rem 1rem;
+}
+/* Position/font color and styles of h4 */
+h4 {
+    font-family:'Open sans';
+    font-size: 18px;
+    font-weight: bold;
+    padding:1rem 1rem;
+}
+/*Position/font color and styles of h5 */
+h5{
+    font-size: 60px;
+    color:black;
+    font-family: sans-serif;
+}
+
+/* color and styling of all the main html*/
+main{
+    background-color: #ffe6ac;
+}
+/* color and styles for class aboutus */
+.aboutus {
+    background-color: #ffe6ac;
+    padding:1rem;
+}
+.aboutus img{
+    max-width: 450px;
+}
+/* Colors and styles for marketing class*/
+.marketing{
+    padding:1rem;
+}
+.marketing img{
+    max-width: 450px;
+}
+/* Colors and styles for digital class*/
+.digital {
+    padding:1rem;
+}
+.digital img{
+    max-width: 450px;
+}
+/* Colors and styles for video class*/
+.video {
+    padding: 1rem;
+}
+
+.video img {
+    max-width: 450px;
+}
+/* Colors and styles for web class*/
+.web {
+    padding:1rem;
+}
+.web img{
+    max-width: 450px;
+}
+/* Colors and styles for print class*/
+.print{
+    padding:1rem;
+}
+.print img{
+    max-width: 450px;
+}
+/* Colors and styles for vision class*/
+.vision {
+    padding:1rem;
+    }
+
+.vision img{
+    max-width:500px;
+}
+/* Colors and styles for ourteam class */
+.ourteam{
+    background-color: #ffe6ac;
+    padding:1rem;
+}
+.ourteam img{
+    max-width: 450px;
+}
+/* color and styling of all paragraphs */
+.paragraph {
+    bottom: 250px;
+    left:90px;
+    padding:20px;
+    position: absolute;
+    font-size: 12px;
+    color: white;
+}
+
+/* color and style of navbar list items */    
+nav ul li a{
+    padding: 1rem;
+    display:list-item;
+    text-align: center;
+    color:#c78c06;
+}
+/* Color and font- sizes of navigation */
+nav{
+    
+    font-size: 18px;
+    color: #c78c06;
+    background-color:#222;
+    }
+    .navbar{
+        
+        max-width: 1000px;
+        max-height: 450px;
+    }
+
+/* positions navbar image and margins */
+.logo img{
+    
+    float: left;
+}
+/* color and styles hover for the navbar */
+nav ul li :hover {
+    background-color: #c78c06;
+    color:#222;
+    }
+
+
+/* dynamics of image in class aboutimg*/
+.aboutimg{
+    width:100%;
+    
+}
+/* Border and colors for Location table */
+table{
+    border-collapse:collapse;
+    border:1px solid black;
+    caption-side:top;
+}
+thead,
+tboady,
+thead tr,
+tbody tr,
+thead th{
+    width:100%;
+    height:100%;
+    vertical-align: top;
+    text-align: left;
+    border-left: 1px solid black;
+    font-size: 18px;
+}
+td, tr{
+    width:100%;
+    border: 1px solid black;
+    padding:0.5rem 0.5rem;
+}
+/*Location table th boxes background color*/
+th{
+    text-align: center;
+    border: 1px solid black;
+    background-color: #ffe6ac;
+}
+caption{
+    font-size: 28px;
+    padding:1rem 1rem;
+    text-align: left;
+}
+img {
+    width: 100%;
+    padding:0 1rem;
+}
+/* Footer color, and size fonts */
+footer{
+    background-color:#222;
+    color:#c78c06;
+    padding:1rem;
+}
+
+button {
+    background-color:#222;
+    font-size: 16px;
+    color:#c78c06;
+}
+ 
+/* Desk top */
+
+@media screen and (min-width: 760px) {
+
+    nav ul li a {
+        padding: 1rem;
+        display: inline-block;
+        text-align: center;
+        color: #c78c06;
+    }
+nav {
+    display:inline-block;
+}
+.navbar {
+    display:inline-block;
+}
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        background-color: #ffe6ac;
+        grid-column-gap: 1rem;
+    }
+
+    main> section {
+        padding: 0.5rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+
+    }
+
+    footer {
+        background-color: #222;
+        color: #c78c06;
+        padding: 1rem;
+    }
+}

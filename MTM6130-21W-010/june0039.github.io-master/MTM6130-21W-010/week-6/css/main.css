@@ -1,0 +1,121 @@
+html{
+    font-size: 16px;
+}
+
+
+body{
+    color:darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/white-brick-wall.png");
+  /*  background-repeat: no repeat;
+    background-position: 100px 200px;
+    background-size: contain;*/
+}
+body{
+    color:red;
+
+}
+ h1{
+     color:white;
+ }
+
+ h1,
+ h2,
+ h3,
+h4 { text-decoration: underline;
+}
+ 
+nav ul{
+    list-style: none;
+
+}
+
+nav ul a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+ /*specificity 0001*/
+ p{
+     background-color: lightblue;
+ }
+
+body{
+    color:red;
+}
+img {
+    width: 100%;
+}
+
+
+/*float*/
+article,
+aside{
+width:88%;
+background-color:  rgba(255, 255, 255, 0.6);
+border: 1px solid black;
+padding: 1.5em;
+box-sizing: border-box;
+float: left;
+}
+
+aside{
+    width:20%;
+
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section{
+    clear: both;
+}
+
+.orange-link{
+    background-color: darkslategray;
+    color:orange;
+    text-decoration: none;
+}
+
+
+
+#treatoftheweek{
+    /*background-color: orange;*/
+    background: darkslategray url("../images/bread.jpg") no-repeat center center;
+    background-size: cover;
+    color:#fff;
+    /*1.5* 16px= 24px*/
+    font: 1.5rem;
+    padding:1em;
+    width:50%;
+}
+/*overridding the background*/
+treatofweek dl ul li:nth-child(n)
+{ background-color:transparent;}
+
+/* avoid using id for styling use classes*/
+.large-text{
+    font-size: 20px;
+}
+/*child selector or Direct Child selector*/
+article>p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*Adjacent sibbling sector*/
+h3+ul{
+    /*THICKNESS and style*/
+    border: 1px solid black;
+}
+a[href="treatofweek"]{
+    font-weight: bold;
+
+}
