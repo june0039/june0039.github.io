@@ -1,7 +1,10 @@
+/*Allows you to size all items with width and height*/
 html{
     box-sizing: border-box;
     box-sizing: inherit;
 }
+
+/*Changes the attributes, such as color, font type, and displays the grid, of the content in the body of the code*/
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#333131;
@@ -13,76 +16,80 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
-/*column {
-    float:none;
-    width:33.33%; 
-}*/
 
-/*header{
-    text-align: center;
-}*/
+/*Changes the attributes  and dimensions of the image scooter*/
  #scooter{
-     text-align: center;
-
-     
-    
+     align-items: center;
 }
 
+/*Changes the attributes of the header h1 such as color and size*/
 h1{
     font-size: 80px;
 }
 
+/*Changes the attributes of the header h2 such as color and size*/
 h2{
     align-items: center;
     font: 24px;
 }
+
+/*Changes the attributes and dimensions of the image twitter*/
 .twitter {
     padding:5%;
     align-items: center;
 }
+
+/*Changes the attributes and dimensions of the image facebook*/
 .facebook {
     padding:5%;
     align-items: center;
 }
 
+/*Changes the attributes and dimensions of the image instagram*/
 .instagram {
     padding:5%;
     align-items: center;
 }
+
+/*Changes the attributes and dimensions of the image linkedin*/
 .linkedin{
-    
     padding:5%;
     align-items: center;
 }
 
+/*Changes the attributes of paragraph*/
 p{
     font-size: 24px;
     color:#333131;
 }
+
+/*Changes the attributes of paragraph 1*/
 p1{
     color:#333131;
 }
+
+/*Changes the attributes of paragraph 2*/
 p2{
        color:#ff8480;
    } 
 
+   /*Changes the attributes of paragraph 3*/
 p3{
     color:#333131;
     font-size: 18px;
 }
+
+/*Changes the attributes of paragraph 4*/
 p4{
     color:333131;
 }
+
+/*Changes the attributes of paragraph 5*/
 p5{
     font-size:16px;
 }
 
-/*form{
-    
-    align-items:center;
-    padding:30px;
-}*/
-
+/*Changes the attributes and dimensions of the footer and its elements*/
 footer{
    /* display: grid;*/
     flex-wrap: wrap;
@@ -95,6 +102,7 @@ footer{
 
 }
 
+/*Changes the attributes of button*/
 button{
     
     border-radius:8px;
@@ -103,6 +111,7 @@ button{
     font-size: 18px;
 }
 
+/*Changes the attributes of button2*/
  button2 {
    
     font-family:Georgia;
@@ -113,19 +122,20 @@ button{
     color:#f7f7ff;
 }
 
+/*Changes the attributes and dimensions of container and all its elements*/
 .container{
     text-align: center;
     border-radius: 8px;
     background-color: #f7f7ff;
     padding: 30px;
 }
-/*input [type=text] {
-    background-color: #f2f2f2;
-    border-radius: 8px;
-}*/
 
+
+/*Tablet size*/
+/*Changes the attributes and dimensions of any element at a min-width of 650px for tablet size responsive coding*/
 @media screen and(min-width:650px){
 
+/*Changes the attributes of the body at min-width 650px */
 body {
     background-color: coral;
     display: grid;
@@ -133,37 +143,29 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+/*Changes the attributes of footer and its elements at min-width 650px*/
 footer{
     background-color: cyan;
 }
-/*form {
-    display: grid;
-    flex-wrap: wrap;
-    max-width: 650;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}*/
-/*footer{
-   / width:100%;
-    height:auto;
 
-}*/
-
+/*Changes the attributes of scooter at min-width 650px*/
 #scooter{
     width:500px;
     align-items: center;
-
 }
 
-
-
+/*Desktop Size*/
+/*Changes the attributes and dimensions of any element at a min-width of 900px for Desktop size responsive coding*/
 @media screen and(min-width:900px){
 
+    /*Changes the attributes and dimensions of logo at a min-width of 900px for Desktop size responsive coding*/
     #logo{
         float: left;
         width:400px;
     }
     
+    /*Changes the attributes and dimensions of any element in main at min-width of 900px for Desktop size responsive coding*/
     main{
         background-color: cyan;
         display:grid;
