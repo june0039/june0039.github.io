@@ -1,4 +1,7 @@
-
+html{
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#333131;
@@ -122,12 +125,11 @@ button{
 }*/
 
 @media screen and(min-width:650px){
+
 body {
     background-color: coral;
     display: grid;
     flex-wrap: wrap;
-    /*max-width: 650;
-    justify-content: flex-start;*/
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
