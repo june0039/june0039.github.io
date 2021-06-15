@@ -9,13 +9,9 @@ main {
     max-width: 600px;
     justify-content: flex-start;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-
-/*.logo {
-    
-}*/
 
  .scooter{
      align-items: center;
@@ -98,18 +94,23 @@ font-family: Georgia;
 @media screen and(min-width:650px){
 main {
     display: grid;
+    flex-wrap: wrap;
+    max-width: 900;
+    justify-content: flex-start;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.scooter{
+    
+}
 }
 
 
-}
 @media screen and(min-width:900px){
-    img .logo {
-        width:100%;
-    }
+    
     main{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
+}
