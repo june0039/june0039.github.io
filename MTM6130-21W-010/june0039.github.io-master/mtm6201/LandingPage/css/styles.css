@@ -170,6 +170,13 @@ footer{
 /*Changes the attributes and dimensions of any element at a min-width of 900px for Desktop size responsive coding*/
 @media screen and(min-width:900px){
 
+     /*Changes the attributes and dimensions of any element in main at min width 900px for desktop size responsive coding*/
+ main{
+     background-color: cyan;
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+ }
     /*positions logo class in grid column 1 to 2 and row 1 to 3 and changes the attributes of class logo*/
     .logo{
         grid-column: 1/2;
@@ -177,16 +184,46 @@ footer{
         float:left;
     }
 
-    /*positions scooter class in grid column 1 to 2 and row 1 to 3 and changes the attributes of class logo*/
+    /*positions scooter class in grid column 2 to 3 and row 2 to 3 and changes the attributes of class scooter*/
     .scooter{
+        grid-column: 2/3;
+        grid-row: 2/3;
+     }
 
+     /*positions form class in grid column 3 to 4 and row 2 to 3 and changes the attributes of class form*/
+     .form{
+         grid-column: 3/4;
+         grid-row: 2/3;
+     }
+   
+     /*Changes attributes of all elements in the footer at min width 900px*/
+     .footer{
+         grid-column: 1/5;
+         grid-row: 5/5;
+     } 
+    
+     /*Changes alignment of instagram logo*/
+    .instagram{
+        align-items: flex-end;
+    }
+    
+    /*Changes alignment of twitter logo*/
+    .twitter{
+        align-items: flex-end;
+    }
 
+    /*Changes alignment of facebook logo*/
+    .facebook{
+        align-items: flex-end;
     }
-    /*Changes the attributes and dimensions of any element in body at min-width of 900px for Desktop size responsive coding*/
-    main{
-        background-color: cyan;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    /*Changes alignment of linkedin logo*/
+    .linkedin{
+        align-items: flex-end;
     }
+
+   
+   
+   
+   
 }
