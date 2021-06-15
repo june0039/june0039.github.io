@@ -92,7 +92,7 @@ font-family: Georgia;
     color:#f7f7ff;
 }
 
-@media screen and(min-width:650px){
+@media screen and(min-width:900px){
 main {
     display: grid;
     flex-wrap: wrap;
@@ -121,7 +121,7 @@ footer{
 }
 
 
-@media screen and(min-width:900px){
+@media screen and(min-width:1200px){
     
     main{
         display:grid;
