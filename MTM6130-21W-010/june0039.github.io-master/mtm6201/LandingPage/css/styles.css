@@ -8,20 +8,24 @@ body{
 } 
 main {
     display:grid;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     max-width: 600px;
     justify-content: flex-start;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
+column {
+    float:none;
+    width:33.33%; 
+}
 
-header{
+/*header{
     text-align: center;
 }
  .scooter{
      align-items: center;
     
-}
+}*/
 
 h1{
     font-size: 80px;
@@ -80,18 +84,31 @@ footer{
 }
 
 button{
-    font-family: Georgia;
-    margin: 36px;
+    
+    border-radius:8px;
+    padding:14px 40px;
     background-color: #57eeab;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 button2{
-font-family: Georgia;
-    margin: 30px;
-    font-size: 30px;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:14px 40px;
+    border-radius: 8px;
+    font:24px;
     background-color:#ff8480;
     color:#f7f7ff;
+}
+.container{
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f7f7ff;
+    padding: 30px;
+}
+input [type=text] {
+    background-color: #f2f2f2;
+    border-radius: 8px;
 }
 
 @media screen and(min-width:650px){
