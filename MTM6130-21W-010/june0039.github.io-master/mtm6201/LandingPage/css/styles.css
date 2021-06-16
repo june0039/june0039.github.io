@@ -11,8 +11,9 @@ main{
 }
 
 .logo{
-    grid-column: 1/1;
-    grid-row: 1/2;
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
 }
 
 /*Changes the attributes  and dimensions of the image scooter*/
@@ -145,6 +146,10 @@ body {
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+
+.logo {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /*Changes the attributes of footer and its elements at min-width 650px*/
