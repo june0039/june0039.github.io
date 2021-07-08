@@ -2,6 +2,7 @@
 
 /* Displays characteristics of elements in the container, size, color ...*/
 .container{
+    display:grid;
     color:Black;
 }
 
@@ -20,8 +21,13 @@ color:Black;
 
 }
 
+image{
+    display:block;
+
+}
+
 /* Adjusts atrributes for screen size for Tablet*/
-@media and screen{min: width 690px;}{
+@media (min: width 690px){
 
 
 
@@ -31,7 +37,13 @@ color:Black;
 
 /* Adusts attributes and elements for screen size Web page */
 
-@media and screen {min-width: 900px;}{
+@media and screen (min-width: 900px){
+
+
+.container{
+
+}
+]
 
 
 }
