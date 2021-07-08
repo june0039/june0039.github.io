@@ -12,6 +12,26 @@
     color:#EA638C;
 
 }
+
+/* Attributes for anything in paragraph element */
 p{
-    
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:Black;
+
+}
+
+/* Adjusts atrributes for screen size for Tablet*/
+@media and screen{min: width 690px;}{
+
+
+
+
+
+}
+
+/* Adusts attributes and elements for screen size Web page */
+
+@media and screen {min-width: 900px;}{
+
+
 }
