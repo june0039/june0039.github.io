@@ -4,3 +4,12 @@
 .container{
     color:Black;
 }
+
+/* Elements and characteristics for h1 */
+.h1{
+    font-family:AdornS Pomander;
+    size: 72px;
+    color:#EA638C;
+
+}
+
