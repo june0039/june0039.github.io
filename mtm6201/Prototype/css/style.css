@@ -9,17 +9,20 @@ body{
     color:#0C0F0A;
 }
 /* Displays characteristics of elements in the container, size, color ...*/
-
 .container{
     display:grid;
     width:50%;
     color:#0C0F0A;
 }
 /*Changes attributes and elements of the footer of the program*/
-
 footer{
   color:white;
 }
+
+.footer img{
+    color:#EA638C;
+}
+
 /* Changes the attributes and elements in section pink display*/
 .pinkdisplay {
 
@@ -85,7 +88,10 @@ img{
 .footer img {
     border: none;
 }
-
+/*Changes the attributes in paragraph 1-p1 */
+p1 {
+    color:#EA638C;
+}
 /* Adjusts atrributes for screen size for Tablet*/
 @media (min: width 690px){
 
