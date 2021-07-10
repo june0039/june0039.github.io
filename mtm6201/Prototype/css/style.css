@@ -18,8 +18,10 @@ body{
 footer{
   color:white;
 }
-
-footer img{
+/* Changes attributes to class facebook, twitter and instagram*/
+.facebook,
+.twitter,
+.instagram{
     color:#EA638C;
 }
 
