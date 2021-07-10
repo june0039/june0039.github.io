@@ -6,38 +6,47 @@
 }
 /* Changes attributes and elements of the body of the program*/
 body{
-    color:black;
+    color:#0C0F0A;
 }
 /* Displays characteristics of elements in the container, size, color ...*/
 
 .container{
     display:grid;
     width:50%;
-    color:Black;
+    color:#0C0F0A;
 }
 /*Changes attributes and elements of the footer of the program*/
 
 footer{
   color:white;
 }
+/* Changes the attributes and elements in section pink display*/
+.pinkdisplay {
+
+    width:3rem;
+}
+
 /*Changes all atrribute and elements in a div*/
 div{
     width:500%;
     padding:10px;
+    font-family:Big Caslon;
+    font-size:14px;
+    color:#0C0F0A;
 }
 
 /* Elements and characteristics for h1 */
-.h1{
+h1{
     font-family:AdornS Pomander;
     size: 72px;
     color:#EA638C;
-
 }
 
 /* Attributes for anything in paragraph element */
 p{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color:Black;
+font-family: Big Caslon;
+Font-size:14px;
+color:#0C0F0A;
 
 }
 
@@ -63,7 +72,7 @@ image{
 .container{
 
 }
-]
+
 
 
 }
