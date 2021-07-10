@@ -1,4 +1,9 @@
 /* Css for Home page*/
+
+/* applies box-sizing to all elements of the program*/
+* {
+    box-sizing: border-box;
+}
 /* Changes attributes and elements of the body of the program*/
 body{
     color:black;
@@ -7,12 +12,18 @@ body{
 
 .container{
     display:grid;
+    width:50%;
     color:Black;
 }
 /*Changes attributes and elements of the footer of the program*/
 
 footer{
   color:white;
+}
+/*Changes all atrribute and elements in a div*/
+div{
+    width:500%;
+    padding:10px;
 }
 
 /* Elements and characteristics for h1 */
