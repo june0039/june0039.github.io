@@ -1,9 +1,18 @@
 /* Css for Home page*/
-
+/* Changes attributes and elements of the body of the program*/
+body{
+    color:black;
+}
 /* Displays characteristics of elements in the container, size, color ...*/
+
 .container{
     display:grid;
     color:Black;
+}
+/*Changes attributes and elements of the footer of the program*/
+
+footer{
+  color:white;
 }
 
 /* Elements and characteristics for h1 */
