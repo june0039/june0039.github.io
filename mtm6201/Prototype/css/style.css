@@ -37,6 +37,10 @@ div{
     background-color:#FFDAD9;
     border:solid 2px #EA638C;
 }
+/* Changes all elements and characteristics of class portrait*/
+.portrait{
+    width:50%;
+}
 
 .nav{
     font-family: Big Caslon;
@@ -63,9 +67,14 @@ color:#0C0F0A;
 
 }
 /* Affetcs any image element in the program*/
-image{
+img{
     display:block;
+    border: solid 3px #FFEE88;
 
+}
+/* Changes attributes to image in logo class*/ 
+.logo img {
+    border: none;
 }
 
 /* Adjusts atrributes for screen size for Tablet*/
