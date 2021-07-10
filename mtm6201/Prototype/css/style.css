@@ -75,7 +75,8 @@ img{
 }
 /* Changes attributes to image in logo class*/ 
 .logo img,
-.pinkdisplay img {
+.pinkdisplay img,
+.footer img {
     border: none;
 }
 
