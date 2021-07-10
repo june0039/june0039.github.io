@@ -30,17 +30,15 @@ footer{
 div{
     width:500%;
     padding:10px;
-    font-family:Big Caslon;
-    font-size:14px;
     color:#0C0F0A;
 }
 /* Changes attributes and elements in the section class about*/
 .about{
     background-color:#FFDAD9;
-    border:solid 3px #EA638C;
-
+    border:solid 2px #EA638C;
 }
-nav{
+
+.nav{
     font-family: Big Caslon;
     font-size: 72px;
 }
@@ -53,6 +51,7 @@ h1{
 }
 /*Changes elements and characteristics of header 2-h2*/
 h2{
+    align-items: flex-end;
     font-size:14px;
     font-family:Big Caslon;
 }
