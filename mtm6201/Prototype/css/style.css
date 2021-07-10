@@ -38,11 +38,15 @@ div{
 .portrait{
     width:50%;
 }
-
+/* Changes all elements in class menu*/
 .menu{
     font-family: Big Caslon;
     font-size: 36px;
     color:#0C0F0A;
+}
+/* Changes all elements in class menu hover*/
+.menu :hover{
+    color:#EA638C;
 }
 
 /* Elements and characteristics for h1 */
