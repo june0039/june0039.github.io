@@ -1,4 +1,4 @@
-/* Css for Home page*/
+/* Css StyleSheet */
 
 /* applies box-sizing to all elements of the program*/
 * {
@@ -6,13 +6,26 @@
 }
 /* Changes attributes and elements of the body of the program*/
 body{
-    display:grid;
+    
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ grid-template-rows: repeat(6,1fr);
+ grid-template-areas: 
+ "h1 h1 h1"
+ "pinkdisplay menu menu"
+ "logo logo logo"
+ "bride-and-groom weddingfall rings"
+ "weddingBW weddingcake weddingcake"
+ "footer footer footer";
+}
 
+/*{
     color:#0C0F0A;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     grid-template-areas: ;
-}
+}*/
+
 /* Displays characteristics of elements in the container, size, color ...*/
 .container{
     display:grid;
@@ -52,7 +65,7 @@ div{
     width:50%;
 }
 /* Changes all elements in class menu*/
-.menu{
+.menu nav{
     font-family: Big Caslon;
     font-size: 24px;
     color:#0C0F0A;
