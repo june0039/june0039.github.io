@@ -29,7 +29,6 @@ footer{
 /*Changes all atrribute and elements in a div*/
 div{
     width:300%;
-    padding:10px;
     color:#0C0F0A;
 }
 /* Changes attributes and elements in the section class about*/
@@ -60,6 +59,13 @@ h2{
     font-size:14px;
     font-family:Big Caslon;
 }
+
+/* Changes the element h3 header and its attributes*/
+h3{
+    font-family: AdornS Pomander;
+    font: size 24px;
+}
+
 /* Attributes for anything in  a paragraph element */
 p{
 font-family: Big Caslon;
