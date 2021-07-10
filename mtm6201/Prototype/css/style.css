@@ -7,6 +7,7 @@
 /* Changes attributes and elements of the body of the program*/
 body{
     display:grid;
+
     color:#0C0F0A;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -16,7 +17,7 @@ body{
 .container{
     display:grid;
     width:50%;
-    color:#0C0F0A;
+    background-color:#0C0F0A;
 }
 /*Changes attributes and elements of the footer of the program*/
 footer{
@@ -53,7 +54,7 @@ div{
 /* Changes all elements in class menu*/
 .menu{
     font-family: Big Caslon;
-    font-size: 36px;
+    font-size: 24px;
     color:#0C0F0A;
 }
 /* Changes all elements in class menu hover*/
