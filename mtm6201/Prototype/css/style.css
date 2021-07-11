@@ -8,15 +8,15 @@
 body{
     
  display:grid;
- grid-template-columns:repeat(3,1fr);
+ grid-template-columns:repeat(2,1fr);
  grid-template-rows: repeat(3,1fr);
  grid-template-areas: 
- "h1 h1 h1"
- "pinkdisplay menu menu"
- "logo logo logo"
- "bride-and-groom weddingfall rings"
+ "h1 h1"
+ "pinkdisplay menu"
+ "logo logo"
+ /*"bride-and-groom weddingfall rings"
  "weddingBW weddingcake weddingcake"
- "footer footer footer";
+ "footer footer footer";*/
 }
 
 /*{
@@ -32,6 +32,7 @@ body{
     width:50%;
     background-color:#0C0F0A;
 }
+
 /*Changes attributes and elements of the footer of the program*/
 footer{
     Display:grid;
@@ -46,7 +47,8 @@ footer{
 
 /* Changes the attributes and elements in section pink display*/
 .pinkdisplay {
-
+    display:block;
+    padding: 40px 300px;
     width:3rem;
     align-self: flex-start;
 }
@@ -65,6 +67,10 @@ div{
 .portrait{
     width:50%;
 }
+/* Controls attributes on page portfolio */
+.portfolio .container{
+ width:100%;
+}
 /* Changes all elements in class menu*/
 .menu nav{
     font-family: Big Caslon;
@@ -77,13 +83,12 @@ ul{
     margin:20px;
     padding: 20px;
     width:300px;
-    
 }
 /* Controls attributes in li a */
 li a {
     display:block;
-    color:#0C0F0a;
-    padding: 30px 300px;
+    color:white;
+    padding: 30px 200px;
     text-decoration: none;
 }
 /* Sets color of menu selection when active*/
@@ -92,7 +97,7 @@ li a {
 }
 
 /* Controls color of menu when hovering over none active menu selections*/
-li a :hover:not(active){
+li a:hover:not(active){
     background-color:#EA638C;
     color:white;
 }
