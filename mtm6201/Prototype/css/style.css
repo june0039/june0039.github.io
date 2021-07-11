@@ -87,9 +87,8 @@ li a {
     text-decoration: none;
 }
 /* Sets color of menu selection when active*/
-li a.active{
+ li a.active{
     color:#EA638C;
-
 }
 
 /* Controls color of menu when hovering over none active menu selections*/
