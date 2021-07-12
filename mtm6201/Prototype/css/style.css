@@ -161,7 +161,7 @@ img{
 @media (min: width 700px){
 
     .container{
-        width:85%;
+        width: 300px;%;
     }
 
     main{
