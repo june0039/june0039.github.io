@@ -7,21 +7,47 @@
 /* Changes attributes and elements of the body of the program*/
 body{
    background-color:#0C0F0A; 
+   border:solid 10px white;
  
 }
  
-   h1{
+h1{
   display:grid;
- grid-template-columns:1fr;
- align-items: center;
-}
+  align-items: center;
+  grid-template-columns:1fr;
 
-/*{
-    color:#0C0F0A;
-    grid-template-columns: repeat(3,1fr);
+}
+/* controls the elements and attributes in the drop down menu*/
+.dropdownmenu {
+    display:in-line block;
+    position:relative;
+}
+/*Controls the elements of the content of the drop down menu*/
+ .dropdowncontent{
+     display:none;
+     position:absolute;
+     background-color: #0C0F0A;
+     min-width: 160px;
+     padding: 12px 16px;
+     z-index: 1;
+     color:white;
+
+ }
+ /* Controls attributes of the hover to the drop down menu and dropwdown content*/
+.dropdownmenu:hover .dropdowncontent{
+    display:block
+    }
+    .dropdownmenu:hover{
+        color:#EA638C;
+    }
+   /* grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     grid-template-areas: ;
 }*/
+/* Controls the elements of the span */
+span{
+    color:#FFEE88;
+}
 
 /* Displays characteristics of elements in the container, size, color ...*/
 .container{
@@ -58,7 +84,7 @@ footer{
 /* Changes the attributes and elements in section pink display*/
 .pinkdisplay {
     display:block;
-    padding: 40px 300px;
+    padding: 0.5px 10px;
     width:3rem;
     align-self: flex-start;
 }
