@@ -44,7 +44,20 @@ footer{
     "icons icons icons"
     "copyright copyright copyright";
 }
+.signature{
+   display: in-line block;
+   margin:8px;
+   position: inherit;
+ }
+.icons{
+    display:flex;
+    position:300px;
 
+}
+.copyright{
+    display:flex;
+    position:300px;
+}
 /* Changes the attributes and elements in section pink display*/
 .pinkdisplay {
     display:block;
@@ -145,7 +158,17 @@ img{
     color:#EA638C;
 }*/
 /* Adjusts atrributes for screen size for Tablet*/
-@media (min: width 690px){
+@media (min: width 700px){
+
+    .container{
+        width:85%;
+    }
+
+    main{
+        background-position: center 200px;
+        background-size:65%;
+    }
+
 
 
 
