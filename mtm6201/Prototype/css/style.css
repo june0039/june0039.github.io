@@ -6,17 +6,14 @@
 }
 /* Changes attributes and elements of the body of the program*/
 body{
-    
- display:grid;
- grid-template-columns:repeat(2,1fr);
- grid-template-rows: repeat(3,1fr);
- grid-template-areas: 
- "h1 h1"
- "pinkdisplay menu"
- "logo logo"
- /*"bride-and-groom weddingfall rings"
- "weddingBW weddingcake weddingcake"
- "footer footer footer";*/
+   background-color:#0C0F0A; 
+ 
+}
+ 
+   h1{
+  display:grid;
+ grid-template-columns:1fr;
+ align-items: center;
 }
 
 /*{
@@ -28,7 +25,7 @@ body{
 
 /* Displays characteristics of elements in the container, size, color ...*/
 .container{
-    display:grid;
+    display:block;
     width:50%;
     background-color:#0C0F0A;
 }
@@ -45,7 +42,7 @@ footer{
     "copyright copyright copyright";
 }
 .signature{
-   display: in-line block;
+   display: block;
    margin:8px;
    position: inherit;
  }
@@ -124,7 +121,8 @@ h1{
 }
 /*Changes elements and characteristics of header 2-h2*/
 h2{
-    align-items: flex-end;
+    display:flex;
+    align-items: flex-start;
     font-size:14px;
     font-family:Big Caslon;
 }
