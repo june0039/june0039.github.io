@@ -7,7 +7,7 @@
 /* Changes attributes and elements of the body of the program*/
 body{
    background-color:#0C0F0A; 
-   border:solid 10px white;
+   border:solid 50px white;
  
 }
  
@@ -99,6 +99,13 @@ div{
     background-color:#FFDAD9;
     border:solid 2px #EA638C;
 }
+/* Attributes in Class Contact*/
+.contact{
+    color:#0C0F0A;
+    background-color: #FFDAD9;
+    border: solid 2px #EA638C;
+    
+}
 /* Changes all elements and characteristics of class portrait*/
 .portrait{
     width:50%;
@@ -175,7 +182,8 @@ img{
 /* Changes attributes to image in logo class*/ 
 .logo img,
 .pinkdisplay img,
-.footer img {
+.footer img,
+.contact img {
     border: none;
 }
 /*Changes the attributes in paragraph 1-p1 */
