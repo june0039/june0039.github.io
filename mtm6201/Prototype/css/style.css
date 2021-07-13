@@ -386,14 +386,24 @@ template {
     box-sizing: border-box;
 }
 /* Changes attributes and elements of the body of the program*/
-body{
+/*body{
    background-color:#0C0F0A; 
-   border:solid 50px white;
+   border:solid 4rem white;
  
+}*/
+/* Sets border to specified classes to none*/
+ portfolio body{
+     border:none;
+ }
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
- 
 h1{
   display:grid;
+  width:25%;
+  float:left;
   align-items: center;
   grid-template-columns:1fr;
 
@@ -427,52 +437,67 @@ h1{
 }*/
 /* Controls the elements of the span */
 span{
-    color:#FFEE88;
+    color:#EA638C;
 }
 
 /* Displays characteristics of elements in the container, size, color ...*/
 .container{
-    display:block;
-    width:50%;
+    display:grid;
+    width:75%;
+    float:right;
     background-color:#0C0F0A;
-}
-
-/*Changes attributes and elements of the footer of the program*/
-footer{
-    Display:grid;
-    color:white;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
-    "signature signature signature"
-    "icons icons icons"
-    "copyright copyright copyright";
+    "h1 h1 h1"
+    "pinkdisplay menu"
+    "logo logo logo logo logo"
+    "bride-and-groom weddingfall rings"
+    "footer footer footer";
+    grid: gap 1px;
 }
-.signature{
-   display: block;
-   margin:8px;
-   position: inherit;
- }
-.icons{
-    display:flex;
-    position:300px;
 
+/*Repositions pictures*/
+.bride-and-groom {
+    display:grid;
+    width:50%;
+    float:left;
 }
+/*Changes attributes and elements of the footer of the program*/
+.footer{
+    Display:block;
+    width:50%;
+    float:center;
+}
+/*Repositions signature class on the page*/
+.signature{
+
+   position: 12px;
+}
+.icons{
+    position:relative;
+}
+/*repositions icons on the page*/
+.logo{
+    display:grid;
+    width:100%;
+    float:center;
+}
+/*Repositions copyright on the page*/
 .copyright{
     display:flex;
-    position:300px;
+    float:left;
+    justify-content:flex-start;
+    position: relative;
+
 }
 /* Changes the attributes and elements in section pink display*/
 .pinkdisplay {
-    display:block;
-    padding: 0.5px 10px;
-    width:3rem;
-    align-self: flex-start;
+    display:grid;
+    width:50%;
+    float:left;
 }
 
 /*Changes all atrribute and elements in a div*/
 div{
-    width:300%;
     color:#0C0F0A;
 }
 /* Changes attributes and elements in the section class about*/
@@ -496,7 +521,7 @@ div{
  width:100%;
 }
 /* Changes all elements in class menu*/
-.menu nav{
+.menu {
     font-family: Big Caslon;
     font-size: 24px;
     color:#0C0F0A;
@@ -588,22 +613,37 @@ h6{
 /* Attributes in class id*/
 .idbox{
     background-color: #FFDAD9;
-    border: 2px solid #EA638C;
+    border: 2rem solid #EA638C;
 }
 /* Attributes in class videography*/
 .videography{
-    background-color: yellow;
+    background-color: #F2F3Ae;
+    border:solid 1rem #FFEE88;
 
 }
-/*Attributes in class dropdownmenu*/
-.dropdownmenu{
-    
+
+/* Clears content when resizing in rows*/
+.row::after{
+    content:"";
+    clear: both;
+    display:block;
 }
 /* Adjusts atrributes for screen size for Tablet*/
-@media (min: width 700px){
-
+@media screen and (min: width 700px){
+ main{
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+ }
     .container{
-        width: 300px;
+        width: 85%;
+    }
+.logo{
+    image-rendering: optimizeQuality;
+    
+}
+    .menu{
+        font: size 36px;
+    }
     
     }
 
@@ -620,12 +660,12 @@ h6{
 
 /* Adjusts attributes and elements for screen size Web page */
 
-@media and screen (min-width: 900px){
+@media screen and (min-width: 900px){
 
-
-.container{
-
-}
+    main{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
 
 
 
