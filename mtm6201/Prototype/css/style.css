@@ -679,7 +679,9 @@ h6{
         background-size:65%;
     }
 
-
+h1{
+    font-size:large;
+}
 
 
 
@@ -697,7 +699,7 @@ h6{
         width: 900px;
     }
     h1{
-        font-size:large;
+        font: size 72px;
     }
 
 .footer{
