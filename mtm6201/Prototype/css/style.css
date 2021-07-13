@@ -662,7 +662,7 @@ h6{
      grid-template-rows: 1fr 1fr 1fr;
  }
     .container{
-        width: 85%;
+        width: 650px;
     }
 .logo{
     image-rendering: optimizeQuality;
@@ -693,7 +693,15 @@ h6{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(6,1fr);
     }
+    .container{
+        width: 900px;
+    }
+    h1{
+        font-size:large;
+    }
 
-
+.footer{
+    width:900px;
+}
 
 }
