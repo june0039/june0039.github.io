@@ -529,7 +529,7 @@ li a:hover:not(active){
 /* Elements and characteristics for h1 */
 h1{
     font-family:AdornS Pomander;
-    size: 72px;
+    size: 60px;
     color:#EA638C;
     align-items: center;
 }
@@ -554,28 +554,50 @@ Font-size:12px;
 color:#0C0F0A;
 
 }
-/* Affetcs any image element in the program*/
+/* Affects any image element in the program*/
 img{
     display:block;
-    border: solid 3px #FFEE88;
+    border: solid 1rem #FFEE88;
 
 }
 /* Changes attributes to image in logo class*/ 
 .logo img,
 .pinkdisplay img,
 .footer img,
-.contact img {
+.contact img,
+.idbox img {
     border: none;
 }
-/*Changes the attributes in paragraph 1-p1 */
-/*p1 {
+/*Changes the attributes in a button */
+button {
     color:#EA638C;
-}*/
+    border:2px solid #FFEE88;
+}
+/* Controls all attributes in h4 headers */
+h4{
+    color:#EA638C;
+    font-family:AdornS Pomander;
+    font-size: 2rem;
+}
+h6{
+    color:#0C0F0A;
+    font-family: AdornS Pomander;
+    font-size:2rem;
+}
+.idbox{
+    background-color: #FFDAD9;
+    border: 2px solid #EA638C;
+}
+.videography{
+    background-color: yellow;
+
+}
 /* Adjusts atrributes for screen size for Tablet*/
 @media (min: width 700px){
 
     .container{
-        width: 300px;%;
+        width: 300px;
+    
     }
 
     main{
@@ -588,9 +610,8 @@ img{
 
 
 
-}
 
-/* Adusts attributes and elements for screen size Web page */
+/* Adjusts attributes and elements for screen size Web page */
 
 @media and screen (min-width: 900px){
 
