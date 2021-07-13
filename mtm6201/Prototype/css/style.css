@@ -565,7 +565,8 @@ img{
 .pinkdisplay img,
 .footer img,
 .contact img,
-.idbox img {
+.idbox img ,
+.dropdownmenu img{
     border: none;
 }
 /*Changes the attributes in a button */
@@ -584,13 +585,19 @@ h6{
     font-family: AdornS Pomander;
     font-size:2rem;
 }
+/* Attributes in class id*/
 .idbox{
     background-color: #FFDAD9;
     border: 2px solid #EA638C;
 }
+/* Attributes in class videography*/
 .videography{
     background-color: yellow;
 
+}
+/*Attributes in class dropdownmenu*/
+.dropdownmenu{
+    
 }
 /* Adjusts atrributes for screen size for Tablet*/
 @media (min: width 700px){
