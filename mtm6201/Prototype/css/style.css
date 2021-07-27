@@ -656,7 +656,7 @@ h6{
     display:block;
 }
 /* Adjusts atrributes for screen size for Tablet*/
-@media screen and (min: width 700px){
+@media screen and (min-width: 700px){
  main{
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr;
@@ -666,8 +666,8 @@ h6{
     }
 .logo{
     image-rendering: optimizeQuality;
-    
 }
+
     .menu{
         font: size 36px;
     }
@@ -682,7 +682,6 @@ h6{
 h1{
     font-size:large;
 }
-
 
 
 
