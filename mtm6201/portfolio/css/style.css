@@ -26,7 +26,7 @@ p{
     border:solid 5rem black;
 
 }
-.dropdown menu{
+.dropdownmenu{
     display:in-line block;
     position:absloute;
 }
@@ -45,7 +45,7 @@ p{
 .dropdownmenu:hover .menucontent{
     color:#58D0D0;
 }
-span{
+.span{
     color:#58D0d0;
 
 }
