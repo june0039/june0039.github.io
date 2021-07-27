@@ -1,0 +1,28 @@
+* {
+    display: box-border
+}
+
+body {
+    display: grid;
+
+}
+h1{
+    color:#5ED5D5;
+    font-family: Big Caslon;
+    font-size: 24;
+}
+p{
+   font-family: Big Caslon;
+   color:#7f7f7f;
+   font-size: 12;
+
+}
+.about{
+    background-color: white;
+    border:solid 5rem black;
+
+}
+.img{
+    border:solid 5rem black;
+
+}
