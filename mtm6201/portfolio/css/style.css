@@ -30,3 +30,22 @@ p{
     display:in-line block;
     position:absloute;
 }
+.menucontent{
+    display:none;
+    font-family: AdornS Pomander;
+    font-size:60;
+    background-color:#7f7f7f;
+    color:#EFEfDf;
+    position:relative;
+    min-width: 160px;
+    padding:12px 16px;
+    z-index:auto;
+
+}
+.dropdownmenu:hover .menucontent{
+    color:#58D0D0;
+}
+span{
+    color:#58D0d0;
+
+}
