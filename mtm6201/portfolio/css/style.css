@@ -45,13 +45,13 @@ p{
 }
 
 .images{
-    border:solid 1rem black;
+ border:solid 1rem black;
 }
 
 
 .wrapper{
     align-content: center;
-    background-image:url("images/HudPortrait.jpg");
+    background-image:url("img_HudPortrait.jpg");
     border:solid 1rem black;
     width:80%;
     background-position: center;
@@ -88,6 +88,13 @@ a{
     color:#F5EDED;
 }
 
+footer{
+    display:grid;
+    width:100%;
+    height:50%;
+    border: solid 1rem black;
+    background-color:#687783;
+}
 
 @media screen and (min-width:690px){
     body{
