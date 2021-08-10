@@ -36,7 +36,7 @@ p{
    font-family: Big Caslon;
    color:#7f7f7f;
    font-size: 14;
-}  
+} 
 
 .about{
     background-color: white;
@@ -44,13 +44,10 @@ p{
 
 }
 
-.img{
+.images{
     border:solid 1rem black;
 }
 
-ul{
-    list-style-type:none;
-}
 
 .wrapper{
     align-content: center;
@@ -60,24 +57,24 @@ ul{
     background-position: center;
 }
 
-li a{
+a{
     display:block;
     color:#C72CDB;
     padding:12px; 
     text-decoration:none;
 }
 
-li a:hover{
+ a:hover{
     color:#5ED5D5;
 }
 
 .menu{
-    display:in-line block;
+    display:flexbox;
     position:relative;
 }
 
 .menu{
-    display:inline-block;
+    display:flexbox;
     font-family:Chalkboard;
     font-size: 24px;
     color:#C72CDB;
@@ -87,7 +84,7 @@ li a:hover{
     z-index:auto;
 }
 
-.li a:active{
+ .a :active{
     color:#F5EDED;
 }
 
