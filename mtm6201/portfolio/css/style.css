@@ -5,17 +5,32 @@
 body {
     display: grid;
     background-color:#EFEFDF;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-area: auto;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   /* grid-area:
+   /* "header header"
+    "snow snow snow"
+    "pinkhoodysm pinkhoodysm pinkhoodysm"
+    "footer footer footer"*/
 }
 
 .wrapper{
-    grid-area: auto;
+    display: grid;
+    background-image: "HudPortrait.jpg";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: 
+    "header"
+    "snow"
+    "pinkhoodysm"
+    "doggysm doggysm"
+    "fishsm fishsm"
+    "skism skism"
+    "footer footer"
 }
 
 .header{
-    grid-area:auto;
+    display:grid;
 
 }
 
@@ -29,32 +44,46 @@ h2{
     font-family: Big Calson;
     font-size: 12;
     color:#7f7f7f;
+}
 
+.copyrights{
+    color:#EFEFDF
 }
 
 p{
    font-family: Big Caslon;
    color:#7f7f7f;
-   font-size: 14;
+   font-size: 12;
 } 
 
-.about{
+.About{
+
+    display:grid;
     background-color: white;
-    border-radius:solid black 1rem;
+    border:solid black 1rem;
+    align-items: center;
+    width:80%;
+    position: absolute;
 
 }
 
-.images{
- border:solid 1rem black;
+img{
+ border:solid 0.5rem black;
 }
 
 
 .wrapper{
+
     align-content: center;
     background-image:url("img_HudPortrait.jpg");
-    border:solid 1rem black;
-    width:80%;
+    border:solid 0.5rem black;
+    width:100%;
     background-position: center;
+}
+
+.icons{
+
+    border:none;
 }
 
 a{
@@ -90,15 +119,35 @@ a{
 
 footer{
     display:grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area:
+    "menu menu"
+    "icons copyrights";
     width:100%;
     height:50%;
-    border: solid 1rem black;
+    border: solid 0.5rem black;
     background-color:#687783;
+    color:#EFEFDF;
 }
 
 @media screen and (min-width:690px){
     body{
     display:grid;
+    }
+    .wrapper{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-area:
+    "header header header"
+    "snowsm snowsm snowsm"
+    "pinkhoodysm pinkhoodysm pinkhoodysm"
+    "doggysm doggysm doggysm"
+    "fishsm fishsm fishsm"
+    "footer footer footer"
+
     }
 
 }
@@ -106,6 +155,13 @@ footer{
 @media screen and(min-width:900px){
 
     body{
+        Display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-area:
+        "header header "
+        ""
+        "footer footer footer footer"
 
     }
 
