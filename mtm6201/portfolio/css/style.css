@@ -156,11 +156,17 @@ footer{
 
     body{
         Display:grid;
+    }
+    
+    .wrapper{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-area:
-        "header header "
-        ""
+        "header header header header "
+        "snowsm snowsm snowsm snowsm"
+        "pinkhoodysm pinkhoodysm pinkhoodysm pinkhoodysm"
+        "doggysm doggysm doggysm doggysm"
+        "fishsm fishsm fishsm fishsm"
         "footer footer footer footer"
 
     }
