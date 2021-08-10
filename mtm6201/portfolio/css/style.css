@@ -18,6 +18,7 @@ body {
     display: grid;
     justify-content: space-evenly;
     background: "HudPortrait.jpg";
+    align-content: center;
     grid-gap:10px;
     grid-row-gap:10px;
     grid-template-columns: 1fr;
