@@ -71,10 +71,10 @@ a:hover {
     }
 
 .wrapper-home{
-
+background: 100%;
 background-image:url("../images/HudPortrait.jpg");
 grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+/*grid-template-rows: 1fr 1fr 1fr;*/
 grid-template-areas: 
 "header"
 "snowsm"
@@ -89,6 +89,7 @@ grid-template-areas:
     display:grid;
     grid-template-columns: 1fr;
     grid-area:
+    "header"
     "rings"
     "DogBoy";
     
@@ -119,7 +120,6 @@ grid-template-areas:
     grid-area: snowsm;
     position:30px 30px;
     align-content: center;
-
 }
 
 .wrapper-about{
@@ -150,19 +150,45 @@ icons{
 
 }
 
+.DogBoy{
+    grid-area:dogboy;
+}
+
+.rings {
+    grid-area: rings;
+}
+
 .copyrights{
     grid-area:copyrights;
 }
 
+.Puppy{
+    grid-area:puppy;
+}
+
+.mallboy{
+    grid-area: mallboy;
+}
+.mall{
+    grid-area:mall;
+}
+.dogpuppy{
+    grid-area:dogpuppy;
+
+}
+
 @media screen and (min-width:690px){
+    
     body{
     display:grid;
     }
+/*Layout*/
+
     .wrapper-home{
 
     display:grid;
     background-image: url("../images/hudportrait-720.jpg");
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-area:
     "header header header"
@@ -176,7 +202,19 @@ icons{
 
     .wrapper-portfolio{
 
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-area:
+        "header header header"
+        "rings puppy puppy"
+        "dogboy mallboy shoes"
+        "dogboy mall dogpuppy"
+
     }
+    
+    
+    
 
 }
 
@@ -187,7 +225,7 @@ icons{
     }
 
     .wrapper{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-area:
         "header header header header "
