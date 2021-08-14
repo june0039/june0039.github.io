@@ -88,13 +88,13 @@ grid-template-areas:
 .wrapper-portfolio{
     display:grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-area:
     "header"
     "rings"
     "DogBoy";
-    
+    }
 
-}
 .pinkhoodysm{
     grid-area: pinkhoodysm;
 }
@@ -125,23 +125,24 @@ grid-template-areas:
 .wrapper-about{
 
     display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: white;
     border:solid black 0.5rem;
-    align-items: center;
     width:80%;
     }
 
-    footer{
-    display:grid;
+footer {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    /*grid-template-rows: 1fr 1fr 1fr;*/
+    grid-template-rows: 1fr 1fr 1fr;
     grid-area:
-    "menu menu"
-    "icons copyrights";
-    width:100%;
+        "menu menu"
+        "icons copyrights";
+    width: 80%;
     border: solid 0.5rem black;
-    background-color:#687783;
-    color:#EFEFDF;
+    background-color: #687783;
+    color: #EFEFDF;
 }
 
 icons{
@@ -175,6 +176,9 @@ icons{
 .dogpuppy{
     grid-area:dogpuppy;
 
+}
+.shoes{
+    grid-area: shoes;
 }
 
 @media screen and (min-width:690px){
