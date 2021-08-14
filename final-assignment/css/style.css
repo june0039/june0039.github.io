@@ -72,7 +72,7 @@ a:hover {
 
 .wrapper-home{
 
-background-image:url("../images/hudportrait-300.psd");
+background-image:url("../images/HudPortrait.jpg");
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 grid-template-areas: 
@@ -85,6 +85,15 @@ grid-template-areas:
 "footer"
 }
 
+.wrapper-portfolio{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-area:
+    "rings"
+    "DogBoy";
+    
+
+}
 .pinkhoodysm{
     grid-area: pinkhoodysm;
 }
@@ -122,9 +131,10 @@ grid-template-areas:
     width:80%;
     }
 
-footer{
+    footer{
     display:grid;
-    grid-auto-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
     grid-area:
     "menu menu"
     "icons copyrights";
@@ -134,7 +144,7 @@ footer{
     color:#EFEFDF;
 }
 
-.icons{
+icons{
     grid-area:icons;
     border:none;
 
@@ -148,9 +158,10 @@ footer{
     body{
     display:grid;
     }
-    .wrapper{
+    .wrapper-home{
 
     display:grid;
+    background-image: url("../images/hudportrait-720.jpg");
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-area:
@@ -160,6 +171,10 @@ footer{
     "doggysm doggysm doggysm"
     "fishsm fishsm fishsm"
     "footer footer footer"
+
+    }
+
+    .wrapper-portfolio{
 
     }
 
